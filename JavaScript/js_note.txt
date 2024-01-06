@@ -1,0 +1,7 @@
+*** JavaScript notes ***
+
+- JavaScript is a programming language,
+- Console work on REPL ( Read - Evalute - Print - Loop )
+- Console code was not permanent
+- Variables : A Variables is simply the name of a storage location
+- 
