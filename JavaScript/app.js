@@ -1010,14 +1010,14 @@
 // console.log(winner, runnerup, other); //other in store extra all name and these using (...) rest concept
 // ----------------------------------------------------------------------------------------------------------
 // Destructuring with objects
-const student = {
-  name: "jayu",
-  class: 10,
-  age: 21,
-  subject: ["hindi", "gujarati", "english"],
-  username: "jayu123",
-  password: 1234,
-};
+// const student = {
+//   name: "jayu",
+//   class: 10,
+//   age: 21,
+//   subject: ["hindi", "gujarati", "english"],
+//   username: "jayu123",
+//   password: 1234,
+// };
 
-const { username: user, password: pass } = student;
-console.log(user);
+// const { username: user, password: pass } = student;
+// console.log(user);
