@@ -1,5 +1,6 @@
 // console.log("JAY SITAPARA");
 // ----------------------------------------------------------------------------------------------------------
+// variables in JS
 // let a = 10;
 // let b = 5;
 // sum = a + b;
@@ -23,13 +24,14 @@
 // console.log(a / b); //division
 // console.log(a % b); //modulo
 // console.log(a ** b); //power
-// b = a; //assignment operator
+// console.log(b = a); //assignment operator
 // console.log(b);
 // ----------------------------------------------------------------------------------------------------------
 //unnary operator
 // let a = 10;
+// let b = 10;
 // console.log(a++);
-// console.log(--a);
+// console.log(--b);
 // ----------------------------------------------------------------------------------------------------------
 //comparison operator
 // let age = 18;
@@ -46,13 +48,13 @@
 // console.log(a === str); //compare value and type
 // ----------------------------------------------------------------------------------------------------------
 //comparison for non-number
-// "a" > "A";
-// "a" > "b";
-// "b" < "c";
-// "B" < "C";
+// console.log("a" > "A");
+// console.log("a" > "b");
+// console.log("b" < "c");
+// console.log("B" < "C");
 // ----------------------------------------------------------------------------------------------------------
 //conditional statement
-//if statement
+// if statement
 // let age = 23;
 // if ((age = 18)) {
 //   console.log("you can vote");
@@ -92,6 +94,7 @@
 //     console.log("you can not vote")
 // }
 // ----------------------------------------------------------------------------------------------------------
+// else if statement
 // let color = "red";
 // if (color === "red") {
 //   console.log("stop");
@@ -148,7 +151,6 @@
 //   case "green":
 //     console.log("go");
 //     break;
-// ----------------------------------------------------------------------------------------------------------
 //   default:
 //     console.log("broken light");
 //     break;
@@ -156,7 +158,7 @@
 // ----------------------------------------------------------------------------------------------------------
 // alert message
 // alert("Somethig is wrong");
-// console.error("This is an error message")
+// console.error("This is an error message");
 // ----------------------------------------------------------------------------------------------------------
 //warning message
 // console.warn("this is warning message");

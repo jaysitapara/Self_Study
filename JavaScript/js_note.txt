@@ -4,4 +4,10 @@
 - Console work on REPL ( Read - Evalute - Print - Loop )
 - Console code was not permanent
 - Variables : A Variables is simply the name of a storage location
-- 
+- Datatype : 1. Number
+             2. Boolean
+             3. String
+             4. Undefined
+             5. Null
+             6. Bigint
+             7. Symbol
