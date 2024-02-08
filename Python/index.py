@@ -183,3 +183,8 @@ comment
 # print(str.count("j"))
 
 # conditional statements
+i = 50
+if i > 10:
+    print("done")
+else:
+    print("not done")
