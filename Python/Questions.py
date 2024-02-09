@@ -37,8 +37,20 @@
 #     print("Grade D")
 
 # wap to check if a number entered by the user is odd or even
-num = int(input("Enter number to check number id odd or even : "))
-if(num/2):
-    print("odd")
+# num = int(input("Enter number to check number id odd or even : "))
+# if(num % 2 == 0):
+#     print("Even")
+# else:
+#     print("Odd")
+
+# wap to find the greatest of 3 numbers enterd by the user
+a = int(input("Enter number a : "))
+b = int(input("Enter number b : "))
+c = int(input("Enter number c : "))
+if(a>=b and a>=c):
+    print("Your greater number is A : ",a)
+elif(b>=a and b>=c):
+    print("Your greater number is B : ",b)
 else:
-    print("Even")
+    print("Your greater number is C : ",c)
+
