@@ -183,8 +183,29 @@ comment
 # print(str.count("j"))
 
 # conditional statements
-i = 50
-if i > 10:
-    print("done")
+
+# 1. if else statement
+# age = 21
+# if (age >= 18):
+#     print("can vote and apply for licence")
+# else:
+#     ("can note votinf and don't apply for licence")
+
+# 2. elif statement
+# light = "green"
+# if (light == "red"):
+#     print("stop")
+# elif(light == "yello"):
+#     print("Start")
+# elif(light == "green"):
+#     print("Go")
+# else:
+#     print("You are not ready for going")
+
+# nested if
+age = 21
+if(age >= 18):
+    if(age >= 80):
+        print("can not drive")
 else:
-    print("not done")
+    print("can not drive")

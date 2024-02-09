@@ -25,3 +25,20 @@
 # val = "today $ price is 82.00"
 # print(val.find("$"))
 
+# wap to print students grade based on marks
+# marks = float(input("Enter your marks : "))
+# if (marks >= 90):
+#     print("Grade A")
+# elif (marks >= 80 and marks < 90):
+#     print("Grade B")
+# elif (marks >= 70 and marks < 80):
+#     print("Grade C")
+# else:
+#     print("Grade D")
+
+# wap to check if a number entered by the user is odd or even
+num = int(input("Enter number to check number id odd or even : "))
+if(num/2):
+    print("odd")
+else:
+    print("Even")
