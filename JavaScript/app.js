@@ -1,10 +1,22 @@
-// console.log("JAY SITAPARA"); 
+// console.log("JAY SITAPARA");
 // ----------------------------------------------------------------------------------------------------------
 // variables in JS
 // let a = 10;
 // let b = 5;
 // sum = a + b;
 // console.log("sum of a and b is",sum);
+// ----------------------------------------------------------------------------------------------------------
+// Datatypes in JS
+// let num = 10
+// let bool = true
+// let str = "jay sitapara"
+// let undf = undefined
+// let nl = null
+// console.log(typeof(num))
+// console.log(typeof(bool))
+// console.log(typeof(str))
+// console.log(typeof(undf))
+// console.log(typeof(nl))
 // ----------------------------------------------------------------------------------------------------------
 // template literals
 // let pencilPice = 10;
