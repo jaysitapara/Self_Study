@@ -11,3 +11,6 @@
              5. Null
              6. Bigint
              7. Symbol
+syntax of declaring vaariable : 1. let (  )
+                                2. var (  )
+                                3. const (  )
