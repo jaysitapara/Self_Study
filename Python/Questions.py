@@ -63,11 +63,26 @@
 # -----------------------------------------------------------------------------------------------------------
 # wap to ask the user to enter names of their three favourite movies and store them in a list
 # movies = []
-# mov = input("Enter your 1st movie : ")
-# movies.append(mov)
-# mov = input("Enter your 2nd movie : ")
-# movies.append(mov)
-# mov = input("Enter your 3rd movie : ")
-# movies.append(mov)
+# movies.append(input("Enter your 1st movie : "))
+# movies.append(input("Enter your 2nd movie : "))
+# movies.append(input("Enter your 3rd movie : "))
 # print(movies)
+# -----------------------------------------------------------------------------------------------------------
+# wap to check if a list contains a palidrome of elements 
+# number = [1,2,1]
+# cp = number.copy()
+# cp.reverse()
+# if cp == number:
+#     print("Pelindrome")
+# else:
+#     print("Not pelindrome")
+# -----------------------------------------------------------------------------------------------------------
+# wap to count the number of students with 'A' grade in the following tuple
+# grade = ("A", "B", "A", "C", "D", "A")
+# print(grade.count("A"))
+# -----------------------------------------------------------------------------------------------------------
+# wap to store the value in the list and store them from A to D
+# val = ["A", "B", "A", "C", "D", "A"]
+# val.sort()
+# print(val)
 # -----------------------------------------------------------------------------------------------------------
