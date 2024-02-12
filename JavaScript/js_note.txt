@@ -15,3 +15,6 @@ syntax of declaring vaariable : 1. let (  )
                                 2. var (  )
                                 3. const (  )
 
+pre-increment : (change, then use)
+post-increment : (use, then change)
+all javascript variable must be identified with unique names (identifiers)
