@@ -18,3 +18,4 @@ syntax of declaring vaariable : 1. let (  )
 pre-increment : (change, then use)
 post-increment : (use, then change)
 all javascript variable must be identified with unique names (identifiers)
+Boolean represents a truth value -> true or false
