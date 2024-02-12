@@ -39,6 +39,14 @@
 // console.log(b = a); //assignment operator
 // console.log(b);
 // ----------------------------------------------------------------------------------------------------------
+
+// Assignment operator
+// let age = 10;
+// console.log(age += 1)
+// console.log(age -= 1)
+// console.log(age *= 1)
+// console.log(age /= 1)
+// ----------------------------------------------------------------------------------------------------------
 //unnary operator
 // let a = 10;
 // let b = 10;
