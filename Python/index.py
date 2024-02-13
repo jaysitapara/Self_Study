@@ -418,6 +418,19 @@ comment
 # ----------------------------------------------------------------------------------------------------------------------
 
 # access multiple key
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "subject" : {
+#         "sub_1" : "python",
+#         "sub_2" : "android",
+#         "sub_3" : "java"
+#     }
+# }
+# print(info["subject"]["sub_1"])     
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Dictionary methods
 info = {
     "name" : "jayu",
     "age" : 21,
@@ -427,4 +440,6 @@ info = {
         "sub_3" : "java"
     }
 }
-print(info["subject"]["sub_1"])     
+print(info.keys())   # retuen all keys
+print(info.values())   # retuen all values
+print(info.items())   # retuen all key and value pair
