@@ -1,0 +1,1 @@
+what is hashable type in python : in set does not allow list

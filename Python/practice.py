@@ -429,3 +429,132 @@ comment
 # }
 # print(info["subject"]["sub_1"])     
 # ----------------------------------------------------------------------------------------------------------------------
+
+# various methods in dictionary
+# 1. retuen all keys
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# print(info.keys())
+
+# 2. dictionary length
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# print(len(info))
+
+# 3. return all values
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# print(info.values())
+
+# 4. return all key value pairs in tuple
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# print(info.items())
+
+# 5. return all key according to the value
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# print(info["name"]) #error & not run next code
+# print(info.get("name")) #none & run next code
+
+# 6. insert the specified items to the dictionary 
+# info = {
+#     "name" : "jayu",
+#     "age" : 21,
+#     "sgpa" : 9.9
+# }
+# info.update({"university" : "Marwadi University"})
+# print(info)
+# ----------------------------------------------------------------------------------------------------------------------
+
+# set in python
+# num = {1,2,3,1,2,3,1,2,3}
+# print(num)
+# ----------------------------------------------------------------------------------------------------------------------
+
+# know set type
+# num = {1,2,3}
+# print(type(num))
+# ----------------------------------------------------------------------------------------------------------------------
+
+# num = {1,2,3}
+# print(len(num))
+# ----------------------------------------------------------------------------------------------------------------------
+
+# create empty set
+# col = set()
+# print(type(col))
+# ----------------------------------------------------------------------------------------------------------------------
+
+# set methods
+# 1. adds an element
+# set = {1,2,3,4,6}
+# set.add(7)
+# print(set)
+
+# 2. remove an element
+# set = {1,2,3,4,6}
+# print(set.remove(1))
+# print(set)
+
+# 3. empties the set
+# set = {1,2,3,4,6}
+# print(set.clear())
+# print(set)
+
+# 5. remove a random value
+# set = {1,2,3,4,6}
+# print(set.pop())
+
+# 6. combine both set value and retur new
+# set1 = {1,2,3}
+# set2 = {2,3,4}
+# print(set2.union(set1))
+
+# 7. combine common value and return new
+# set1 = {1,2,3}
+# set2 = {2,3,4}
+# print(set1.intersection(set2))
+# ----------------------------------------------------------------------------------------------------------------------
+
+# while loop in python
+# count = 1
+# while count <= 5:
+#     print("python")
+#     count += 1
+# ----------------------------------------------------------------------------------------------------------------------
+
+# break keyword in while loop
+# i = 1
+# while i <= 5:
+#     print(i)
+#     if (i == 3):
+#         break
+#     i+=1
+# ----------------------------------------------------------------------------------------------------------------------
+
+# continue in python
+# i = 1
+# while i <= 5:
+#     if (i == 3):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+# ----------------------------------------------------------------------------------------------------------------------
+
