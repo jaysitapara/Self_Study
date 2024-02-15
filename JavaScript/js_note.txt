@@ -19,3 +19,5 @@ pre-increment : (change, then use)
 post-increment : (use, then change)
 all javascript variable must be identified with unique names (identifiers)
 Boolean represents a truth value -> true or false
+undefined : A variable that hhas not been assigned a value is of type undefined.
+null : the null value represent the intentional absence of anyy object value.
