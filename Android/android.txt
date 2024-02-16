@@ -1,0 +1,7 @@
+Toast : Show message on the screen
+linear layout : 
+vertical linear layout :
+horizontal linear layout :
+relative layout :
+match_parent :
+wrap_content :

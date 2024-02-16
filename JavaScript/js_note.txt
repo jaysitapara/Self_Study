@@ -2,6 +2,8 @@
 
 - JavaScript is a programming language,
 - Console work on REPL ( Read - Evalute - Print - Loop )
+console.log : To write(log) the message on the console.
+
 - Console code was not permanent
 - Variables : A Variables is simply the name of a storage location
 - Datatype : 1. Number
