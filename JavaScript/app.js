@@ -550,7 +550,9 @@
 // console.log(classInfo);
 // console.log(classInfo[0]);
 // console.log(classInfo[0].name);
-// ----------------------------------------------------------------------------------------------------------
+
+// ==============================================================
+
 //Math Object
 //Properties
 // console.log(Math.PI);
@@ -579,7 +581,9 @@
 //Step : 4
 // num = num + 1;
 // console.log(num);
-// ----------------------------------------------------------------------------------------------------------
+
+// ==============================================================
+
 //JavaScript Function
 
 //Function definition
@@ -587,7 +591,7 @@
 //   console.log("jayu");
 // }
 
-//Calling Function
+//Calling Fun    ction
 // hello();
 
 //Another Example
