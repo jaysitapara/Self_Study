@@ -71,9 +71,9 @@
 // a = 10;
 // str = "10";
 // console.log(a == str); //compare only value, not compare type
-// console.log(a === str); //compare value and type
+// console.log(a === str); //compare value and type 
 // ----------------------------------------------------------------------------------------------------------
-//comparison for non-number
+//comparison for non-number ( compare with unicode )
 // console.log("a" > "A");
 // console.log("a" > "b");
 // console.log("b" < "c");
@@ -200,41 +200,47 @@
 
 // ==============================================================
 
-//string methods
+// string methods
 // format : stringName.method()
 // ----------------------------------------------------------------------------------------------------------
 // str.trim()
 // let msg = " he   llo   ";
 // console.log(msg.trim());        //remove extra spaces
 // ----------------------------------------------------------------------------------------------------------
-//str.toUpperCase()
+// str.toUpperCase()
 // let msg = " hello";
 // console.log(msg.toUpperCase());     //Upper Case
+// ----------------------------------------------------------------------------------------------------------
+// str.toUpperCase()
+// let msg = " hello";
 // console.log(msg.toLowerCase());     //Lower Case
 // ----------------------------------------------------------------------------------------------------------
-//string method with arguments
+// string method with arguments
 // let str = "jay";
 // console.log(str.indexOf("j"));         //return index value
 // ----------------------------------------------------------------------------------------------------------
-//write two string method at one variable
+// write two string method at one variable (Method Chaining)
 // let msg = "hello";
 // let newMsg = msg.trim().toUpperCase();
 // console.log(newMsg);
 // ----------------------------------------------------------------------------------------------------------
-//slice()
+// slice()
 // let str = "ILoveCoding";
-// newStr = str.slice(0, 5);
+// newStr = str.slice(5);  // 5th inndex to ending
+// newStr = str.slice(1, 4);    // start index to end index
 // console.log(newStr);
 // ----------------------------------------------------------------------------------------------------------
-//replace()
+// replace()
 // let str = "ILovecoding";
-// console.log(str.replace("Love", "Jay"));
+// console.log(str.replace("Love","jayu"));
 // ----------------------------------------------------------------------------------------------------------
-//repeat()
+// repeat()
 // let str = "Mango ";
-// console.log(str.repeat(3));
-// ----------------------------------------------------------------------------------------------------------
-//Array
+// console.log(str.repeat(2));
+
+// ==============================================================
+
+// Array
 // let students = ["jay", "vraj"];
 // console.log(students); //show all arraya value
 // console.log(students[0]); //show arrays index position
@@ -259,22 +265,23 @@
 // let newFruits = (fruits[0] = "banana"); //array are mutable it means array is an changable
 // console.log(newFruits);
 // ----------------------------------------------------------------------------------------------------------
+// Array are mutable
 // let x = ["apple", "banana", "litchi"];
 // console.log(x);
 // let newX = (x[11] = "mango");
 // console.log(newX); //show between blank index was empty
 // ----------------------------------------------------------------------------------------------------------
-//arrays methods
+// arrays methods
 // let car1 = ["BMW", "Maruti", "audi", "XUV", "Rolls Royce"];
 // let car2 = ["Breeza", "Creta", "Ferari", "Jaguar"];
 // let days = ["sunday", "tuesday", "monday", "saturday"];
 // let num = [5, 8, 1, 2, 3, 9, 4, 6, 7];
-// console.log(car.push("toyota")); //push array, add new element in last index of array
-// console.log(car.pop()); //pop array, delete last index of array
-// console.log(car.unshift("toyota")); //unshift array, add new element in first index of array
-// console.log(car.shift()); //shift array, delete first index of array
-// console.log(car.indexOf("Maruti")); //return index of something
-// console.log(car.includes("BMW")); //search a value
+// console.log(car1.push("toyota")); //push array, add new element in last index of array
+// console.log(car1.pop()); //pop array, delete last index of array
+// console.log(car1.unshift("toyota")); //unshift array, add new element in first index of array
+// console.log(car1.shift()); //shift array, delete first index of array
+// console.log(car1.indexOf("Maruti")); //return index of something
+// console.log(car1.includes("BMW")); //search a value return true or false
 // console.log(car1.concat(car2)); //merge two array
 // console.log(car1.reverse()); //reverse an array
 // console.log(car1.slice(0, 3)); //copies a portion of an array, 0 to 3 index
@@ -285,16 +292,16 @@
 // console.log(days.sort()); //sort in string
 // console.log(num.sort()); //sort in number
 // ----------------------------------------------------------------------------------------------------------
-// Array References      //reference was not  store a value but store is address , create an new array it means create a new memory allocated
+// Array References  //reference was not  store a value but store is address , create an new array it means create a new memory allocated
 // let num = [1, 2, 3]; //num is a reference variable
 // let a = [1] == [1];
 // console.log(a); //false
 // ----------------------------------------------------------------------------------------------------------
-//constant array
+// constant array (perform operations in array but don't change array)
 // const arr = [1, 2, 3, 4, 5]; //const arr can not be  change
 // console.log(arr);
 // ----------------------------------------------------------------------------------------------------------
-//nested arrays
+// nested arrays
 // let num = [
 //   [1, 2],
 //   [3, 4],
@@ -302,36 +309,42 @@
 // ];
 // console.log(num); //show nested array
 // console.log(num[1]); //print 1st position
-// ----------------------------------------------------------------------------------------------------------
-//loops in JS
+// console.log(num[1][1]); //print 1st position in 1st value
+
+// ==============================================================
+
+// loops in JS
 // console.log("*"); //same item print multiple time it time use loop
 // console.log("*");
 // console.log("*");
 // console.log("*");
 // console.log("*");
 // ----------------------------------------------------------------------------------------------------------
-//for loop
+// syntax
+// for (initialisation; condition; updation) {
+//   //do something
+// }
+// initialisation : counter variable
+// condition : variable value condition
+// updation : variable updation
+// ----------------------------------------------------------------------------------------------------------
+// for loop
 // for (let i = 1; i <= 5; i++) {
 //   //print 1 to 5
 //   console.log(i);
 // }
 // ----------------------------------------------------------------------------------------------------------
-//syntax
-// for (initialisation; condition; updation) {
-//   //do something
-// }
-// ----------------------------------------------------------------------------------------------------------
-//reverse
+// reverse
 // for (let i = 5; i >= 1; i--) {
 //   console.log(i);
 // }
 // ----------------------------------------------------------------------------------------------------------
-//print all odd numbers (1 to 15)
+// print all odd numbers (1 to 15)
 // for (let i = 1; i <= 15; i = i + 2) {
 //   console.log(i);
 // }
 // ----------------------------------------------------------------------------------------------------------
-//reverse
+// reverse
 // for (let i = 15; i >= 1; i = i - 2) {
 //   console.log(i);
 // }
@@ -349,7 +362,6 @@
 //table using loop
 // let n = prompt("enter number: ");
 // n = parseInt(n);
-// ----------------------------------------------------------------------------------------------------------
 // for (let i = n; i <= n * 10; i = i + n) {
 //   console.log(i);
 // }
@@ -424,7 +436,9 @@
 //     console.log(i);
 //   }
 // }
-// ----------------------------------------------------------------------------------------------------------
+
+// ==============================================================
+
 //JS object literals
 // const student = {
 //   name: "jay",
@@ -454,9 +468,9 @@
 // console.log(students["name"]);
 // console.log(students.name);
 // ----------------------------------------------------------------------------------------------------------
-//JS object literal get values
-//All keys convert into string
-//Add any types of datatype key
+// JS object literal get values
+// All keys convert into string
+// Add any types of datatype key
 // const obj = {
 //   1: "a",
 //   2: "b",
@@ -466,7 +480,7 @@
 // };
 // console.log(obj);
 // ----------------------------------------------------------------------------------------------------------
-// Add or Update value in JS object liiterals
+// Add or Update value in JS object literals
 
 // old record
 // const student = {
@@ -476,7 +490,7 @@
 //   city: "rajkot",
 // };
 // ----------------------------------------------------------------------------------------------------------
-// //update record
+// update record
 // let newRecord =
 //   ((student.city = "mumbai"),
 //   (student.gender = "female"),
