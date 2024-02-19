@@ -1066,5 +1066,5 @@
 //   password: 1234,
 // };
 // const { username: user, password: pass } = student;
-// console.log(user);
+// console.log(user, pass);
 // ----------------------------------------------------------------------------------------------------------
