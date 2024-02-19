@@ -71,7 +71,7 @@
 // a = 10;
 // str = "10";
 // console.log(a == str); //compare only value, not compare type
-// console.log(a === str); //compare value and type 
+// console.log(a === str); //compare value and type
 // ----------------------------------------------------------------------------------------------------------
 //comparison for non-number ( compare with unicode )
 // console.log("a" > "A");
@@ -612,7 +612,7 @@
 //   num = num * 6;
 //   num = Math.floor(num);
 //   console.log(num);
-// } 
+// }
 // aaa();
 // ----------------------------------------------------------------------------------------------------------
 //function with argument
@@ -853,9 +853,10 @@
 //   math: 98,
 //   phy: 95,
 //   getavg() {
-//     let avg = (eng + math + phy) / 3;   //error bcs object doesn't use directly
+//     // let avg = (eng + math + phy) / 3;   //error bcs object doesn't use directly
 //     let avg = (this.eng + this.math + this.phy) / 3;
 //     console.log(avg);
+//     console.log(this)
 //   },
 // };
 // student.getavg();
@@ -874,7 +875,7 @@
 // sum(1, 2); //call sum
 // ----------------------------------------------------------------------------------------------------------
 // Arrow function (Implicit return) (sort syntax of return value)
-// const mul = (a, b) => a * b;
+// const mul = (a, b) => (a * b);
 // let ans = mul(2, 3);
 // console.log(ans);
 // ----------------------------------------------------------------------------------------------------------
@@ -898,11 +899,8 @@
 // console.log(id); //show id of setInterval function
 // clearInterval(id); //stop setInterval function using id(id is a variable name or id)
 
-//demo for show stop setInterval function (only show this funtion bcs 1st is stop after logged this function)
-// let id2 = setInterval(() => {
-//   console.log("Hello World!");
-// }, 2000);
-// console.log(id2); //show id of setInterval function
+// demo for show stop setInterval function (only show this funtion bcs 1st is stop after logged this function)
+// let id2 = g(id2); //show id of setInterval function
 // ----------------------------------------------------------------------------------------------------------
 // This keyword with arrow function
 // const student = {
@@ -920,10 +918,11 @@
 //     return this.marks;
 //   },
 // };
-// ----------------------------------------------------------------------------------------------------------
-// Array methods (Extra methods to use in function)
-// forEach
 
+// ==============================================================
+
+// Array methods (Extra methods to use in function)
+// 1.forEach
 // first method
 // let arr = [1, 2, 3, 4, 5];
 // let print = function (el) {
@@ -954,7 +953,7 @@
 //   console.log(student.marks);
 // });
 // ----------------------------------------------------------------------------------------------------------
-// Map (old array to get value and create new array and new array size are same for old array)
+// 2.Map (old array to get value and create new array and new array size are same for old array)
 // let num = [1, 2, 3, 4];
 // let double = num.map(function (el) {
 //   return el * 2;
@@ -962,14 +961,14 @@
 // let ans = double;
 // console.log(ans);
 // ----------------------------------------------------------------------------------------------------------
-// Filter (old array in add any function and this function are true so add element in new array and if callback was false so it was not add on new array)
+// 3.Filter (old array in add any function and this function are true so add element in new array and if callback was false so it was not add on new array)
 // let nums = [2, 4, 1, 5, 6, 2, 7, 8, 9];
 // let even = nums.filter((num) => num % 2 == 0);  //even
 // let odd = nums.filter((num) => num % 2 != 0);  //odd
 // console.log(even);
 // console.log(odd);
 // ----------------------------------------------------------------------------------------------------------
-// Every (Return true if every element of array gives true for some function. Else return false)
+// 4.Every (Return true if every element of array gives true for some function. Else return false)
 // let arr = [2, 4, 6];
 // let arr2 = [1, 3, 5, 7];
 // let even = arr.every((el) => el % 2 == 0);
@@ -977,17 +976,17 @@
 // console.log(even); //true bcs all are even number
 // console.log(odd); //true bcs all are odd number
 // ----------------------------------------------------------------------------------------------------------
-// Some (Return true if some element of array give true for some function. else return false.)
+// 5.Some (Return true if some element of array give true for some function. else return false.)
 // let arr = [1, 2, 3, 4];
 // let even = arr.some((el) => el % 2 == 0);
 // console.log(even); //true bcs all are even number
 // ----------------------------------------------------------------------------------------------------------
-// Reduce (Reduces the array to a single value)
+// 6.Reduce (Reduces the array to a single value)
 // let arr = [1, 2, 3, 4];
 // let ans = arr.reduce((res, el) => res + el);     //(accumulator , element are two arguments , any name's to define)
 // console.log(ans);
 // ----------------------------------------------------------------------------------------------------------
-// Reduce Example (Finding Maximum in ana array)
+// Reduce Example (Finding Maximum in an array)
 // let nums = [2, 3, 4, 5, 3, 4, 7, 8, 1, 2];
 // let result = nums.reduce((max, el) => {
 //   if (el > max) {
@@ -997,7 +996,9 @@
 //   }
 // });
 // console.log(result);
-// ----------------------------------------------------------------------------------------------------------
+
+// ==============================================================
+
 // Default Parameters (Giving a default value to the arguments, Add a default value in arguments)
 // function sum(a, b = 3) {
 //   return a + b;
