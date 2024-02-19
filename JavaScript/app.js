@@ -612,7 +612,7 @@
 //   num = num * 6;
 //   num = Math.floor(num);
 //   console.log(num);
-// }
+// } 
 // aaa();
 // ----------------------------------------------------------------------------------------------------------
 //function with argument
@@ -675,7 +675,7 @@
 // isAdult(20);
 // console.log(isAdult(20));
 // ----------------------------------------------------------------------------------------------------------
-//Get sum of number using function
+// Get sum of number using function
 // function sum(n) {
 //   let sum = 0;
 //   for (let i = 0; i <= n; i++) {
