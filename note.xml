@@ -160,6 +160,57 @@ What is String Indeces ?
 =========================================================================================================================================
 
 
+String methods ?
+
+1. length:
+    =>  Returns the length of a string, indicating the number of characters in the string.
+
+2. charAt(index):
+    =>  Returns the character at the specified index in a string.
+
+3. concat(str1, str2, ...):
+    =>  Concatenates two or more strings and returns a new string.
+
+4. indexOf(substring, [startIndex]):
+    =>  Returns the index of the first occurrence of a substring within a string. If not found, returns -1.
+
+5. lastIndexOf(substring, [startIndex]):
+    =>  Returns the index of the last occurrence of a substring within a string. If not found, returns -1.
+
+6. substring(startIndex, [endIndex]):
+    =>  Extracts a portion of a string starting from the specified index up to, but not including, the endIndex.
+
+7. slice(startIndex, [endIndex]):
+    =>  Extracts a portion of a string from startIndex to endIndex. Allows negative indices.
+
+8. toUpperCase():
+    =>  Converts all characters in a string to uppercase.
+
+9. toLowerCase():
+    =>  Converts all characters in a string to lowercase.
+
+10. trim():
+    =>  Removes leading and trailing whitespaces from a string.
+
+11. replace(searchValue, replaceValue):
+    =>  Replaces occurrences of a specified substring or regular expression with another string.
+
+12. split(separator, [limit]):
+    =>  Splits a string into an array of substrings based on a specified separator. Optionally limits the number of splits.
+
+13. startsWith(searchString, [position]):
+    =>  Checks if a string starts with the specified substring. Returns a boolean.
+
+14. endsWith(searchString, [length]):
+    =>  Checks if a string ends with the specified substring. Returns a boolean.
+
+15. includes(searchString, [position]):
+    =>  Checks if a string contains the specified substring. Returns a boolean.
+
+
+=========================================================================================================================================
+
+
 What is Null & Undefined ?
 
 1. null:
@@ -238,6 +289,75 @@ Prompt:
 
 Warning:
     =>  In a general sense, a warning is a message or indication that alerts the user about a potential issue or provides information that requires attention. In JavaScript, warnings can be conveyed using alert messages or other means to notify users about important aspects of the application.
+
+
+=========================================================================================================================================
+
+
+What is array ?
+
+Array:
+    =>  A data structure in programming that represents a collection of elements, each identified by an index or key. Elements can be of the same or different data types, and arrays provide methods for manipulation and traversal.
+
+
+=========================================================================================================================================
+
+
+Array Methods ?
+
+1. length:
+    =>  Returns the number of elements in an array.
+
+2. concat(arr1, arr2, ...):
+    =>  Combines two or more arrays, creating a new array.
+
+3. push(element1, element2, ...):
+    =>  Adds one or more elements to the end of an array and returns the new length.
+
+4. pop():
+    =>  Removes the last element from an array and returns that element.
+
+5. unshift(element1, element2, ...):
+    =>  Adds one or more elements to the beginning of an array and returns the new length.
+
+6. shift():
+    =>  Removes the first element from an array and returns that element.
+
+7. indexOf(searchElement, [fromIndex]):
+    =>  Returns the first index at which a specified element is found in the array, or -1 if not found.
+
+8. lastIndexOf(searchElement, [fromIndex]):
+    =>  Returns the last index at which a specified element is found in the array, or -1 if not found.
+
+9. slice(startIndex, [endIndex]):
+    =>  Returns a shallow copy of a portion of an array from startIndex to endIndex (excluding endIndex).
+
+10. splice(startIndex, deleteCount, [element1, element2, ...]):
+    =>  Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+
+11. reverse():
+    =>  Reverses the order of elements in an array.
+
+12. sort([compareFunction]):
+    =>  Sorts the elements of an array, optionally using a provided compare function.
+
+13. forEach(callback):
+    =>  Executes a provided function once for each array element.
+
+14. map(callback):
+    =>  Creates a new array by applying a provided function to each element of the original array.
+
+15. filter(callback):
+    =>  Creates a new array with elements that satisfy a provided condition.
+
+16. reduce(callback, [initialValue]):
+    =>  Applies a provided function against an accumulator and each element in the array to reduce it to a single value.
+
+17. join([separator]):
+    =>  Joins all elements of an array into a string, separated by the specified separator.
+
+18. isArray(value):
+    =>  Returns true if the provided value is an array; otherwise, returns false.
 
 
 =========================================================================================================================================
