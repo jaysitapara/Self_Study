@@ -363,3 +363,24 @@ Array Methods ?
 =========================================================================================================================================
 
 
+What is array references ?
+
+Array References:
+    =>  In JavaScript, arrays are reference types. When you assign an array to a variable or pass it as a function parameter, you are working with a reference to the original array, not a new copy. Modifying the array through one reference affects all references to that array.
+
+
+=========================================================================================================================================
+
+
+What is constant array and immutable array ? 
+
+Constant Array Reference:
+    =>  An array declared using const in JavaScript means that the variable holding the array reference cannot be reassigned to a new array. However, the contents of the array can still be modified.
+
+Immutable Array:
+    =>  An immutable array is one in which both the array reference and its contents cannot be changed once it is defined. Achieving true immutability may involve using techniques like Object.freeze() or libraries that provide immutable data structures.
+
+
+=========================================================================================================================================
+
+
