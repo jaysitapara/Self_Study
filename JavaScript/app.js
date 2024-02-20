@@ -1067,4 +1067,52 @@
 // };
 // const { username: user, password: pass } = student;
 // console.log(user, pass);
+
+// ==============================================================
+
+// DOM (Document Object Model)
+
+// change innerText
+// console.dir(document.all[8].innerText = "Peter Parker")
+
+// selecting elements
+// document.getElementById
+// document.getElementById("mainImg")
+// let imgObj = document.getElementById("mainImg");
+// imgObj.src     // Access id's property
+// imgObj.src = "./assets/creation_1.png"       // update image src
+// ----------------------------------------------------------------------------------------------------------
+// document.getElementByClassName
+// let img = document.getElementsByClassName("oldImg")
+// ----------------------------------------------------------------------------------------------------------
+// handle using for loop
+// let img = document.getElementsByClassName("oldImg")
+// for (let i = 0; i < img.length; i++) {
+//     console.dir(img[i]);
+// }
+// ----------------------------------------------------------------------------------------------------------
+// change image
+// let img = document.getElementsByClassName("oldImg")
+// for (let i = 0; i < img.length; i++) {
+//     img[i].src = "./assets/spiderman_img.png"
+//     console.log(i);
+// }
+// ----------------------------------------------------------------------------------------------------------
+// document.getElementByTagName
+// document.getElementsByTagName("p")
+// ----------------------------------------------------------------------------------------------------------
+// Query Selector
+// document.querySelector("p"); // select 1st p tag
+// document.querySelector("#myId"); // select first element eith id = myId
+// document.querySelector(".myClass"); // select first element eith class = myClass
+// document.querySelectorAll("p"); // select all p elements
+// document.querySelector("div a");    // select main tag into first sub tag
+// ----------------------------------------------------------------------------------------------------------
+// using properties & methods
+// innerText
+// let para = document.querySelector("p")
+// console.dir(para)
+// console.dir(para.innerText)
+// console.dir(para.innerHTML)
+// console.dir(para.textContent)
 // ----------------------------------------------------------------------------------------------------------
