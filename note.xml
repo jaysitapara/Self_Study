@@ -384,3 +384,316 @@ Immutable Array:
 =========================================================================================================================================
 
 
+What is nested Array ?
+
+Nested Array:
+    =>  An array that is an element or a collection of elements within another array. This concept is often used to create multi-dimensional arrays.
+
+
+=========================================================================================================================================
+
+
+What is loops ?
+
+Loops:
+    =>   loops are control structures that allow a set of instructions to be repeatedly executed until a certain condition is met. They provide a way to efficiently perform repetitive tasks by automating the iteration over a sequence of statements or code blocks.
+
+Types of loop:
+
+
+1. for Loop:
+    =>  Executes a block of code a specified number of times. It is commonly used when the number of iterations is known in advance.
+
+2. while Loop:
+    =>  Repeatedly executes a block of code as long as a specified condition is true. It is often used when the number of iterations is not known in advance.
+
+3. do...while Loop:
+    =>  Similar to the while loop, but the block of code is executed at least once before the condition is checked. It ensures that the code inside the loop is executed at least once, regardless of the initial condition.
+
+4. for...in Loop:
+    =>  Iterates over the enumerable properties of an object. It is used for iterating over the keys (property names) of an object.
+
+5. for...of Loop:
+    =>  Introduced in ECMAScript 2015 (ES6), it iterates over the values of iterable objects, such as arrays, strings, maps, sets, etc.
+
+
+=========================================================================================================================================
+
+
+What is infinite loop ?
+
+Infinite Loop:
+    =>  A loop in programming that runs indefinitely, continuously executing its block of code without termination. This situation is usually unintended and can lead to program instability.
+
+
+=========================================================================================================================================
+
+
+What is break keyword ?
+
+Break Keyword:
+    =>  In programming, the "break" keyword is a control flow statement that is used to exit a loop or switch statement prematurely. It is commonly used to terminate the execution of a loop based on a certain condition.
+
+
+=========================================================================================================================================
+
+
+nested loop with nested array ?
+
+
+Nested Loop with Nested Array:
+    =>  In programming, a nested loop with a nested array refers to the situation where one or more loops are placed inside another loop, and the looped structure involves arrays. This often occurs when dealing with multi-dimensional arrays, where an array contains other arrays as its elements, and nested loops are used to traverse or manipulate the elements of these arrays. The outer loop typically iterates over the outer array, and the inner loop iterates over the elements of the inner arrays.
+
+
+=========================================================================================================================================
+
+
+What is object Literals ?
+
+Object Literals:
+    =>  In programming, an object literal is a syntactic construct for creating an object in a programming language, including JavaScript. It allows the creation of an object with properties and values in a concise and readable form. Object literals are defined by enclosing key-value pairs within curly braces {}, with each pair separated by commas.
+
+
+=========================================================================================================================================
+
+
+Accessing Values from Object Literal ?
+
+    =>  Values in an object literal can be accessed using the dot notation (objectName.propertyName) or square bracket notation (objectName['propertyName']). The property name should be specified to retrieve the corresponding value from the object.
+
+
+=========================================================================================================================================
+
+
+Adding and Updating Properties in Object Literal ?
+
+    =>  You can add and update properties in an object literal using the dot notation or square bracket notation. To add a new property, assign a value to a property that doesn't exist. To update an existing property, reassign a new value to the existing property.
+
+
+=========================================================================================================================================
+
+
+
+Deleting Properties from Object Literal ?
+
+    =>  you can delete properties from an object literal using the delete keyword. Use delete objectName.propertyName or delete objectName['propertyName'] to remove a specific property from the object.
+
+
+=========================================================================================================================================
+
+
+
+What is Object of Objects ?
+    =>  An "object of objects" refers to a situation where the properties of an object are themselves objects. Each property in the main object is another object, creating a nested or hierarchical structure. This allows for a more complex and organized representation of data.
+
+
+=========================================================================================================================================
+
+
+What is array of object ?
+
+    =>  An "array of objects" refers to an array where each element is an object. Each object in the array can have multiple properties, and the array as a whole is a collection of these objects.
+
+
+=========================================================================================================================================
+
+
+What is math object ?
+    =>  The Math object is a built-in object that provides mathematical constants and functions. It is not a constructor, so it cannot be instantiated with the new keyword. Instead, you can directly access its properties and methods.
+
+
+=========================================================================================================================================
+
+
+What is functions ?
+
+    =>  A function is a reusable block of code that performs a specific task or set of tasks. Functions allow you to organize code, make it more modular, and avoid repetition. Functions can take parameters (input) and return a result (output), but not all functions require both.
+
+
+=========================================================================================================================================
+
+
+What is Function with Arguments:
+
+    =>  A function in programming that accepts parameters or arguments allows you to pass values into the function when it is called. These arguments provide input to the function, allowing it to perform operations based on the provided values.
+
+
+=========================================================================================================================================
+
+
+What is Return Keyword in function ?
+
+    =>  The return keyword is used within a function to specify the value that the function will output or return when it is called. The return statement not only terminates the function's execution but also sends a value back to the caller, allowing the result of the function to be used in other parts of the code.
+
+
+=========================================================================================================================================
+
+
+What is scope in function ?
+
+1. Function Scope:
+    =>  Variables declared with var keyword are function-scoped, meaning they are only accessible within the function where they are defined.
+
+2. Global Scope:
+    =>  Variables declared globally are accessible throughout the entire program.
+
+3. Block Scope:
+    =>  Variables declared with let and const are block-scoped, meaning they are only accessible within the block (enclosed by curly braces) where they are defined.
+
+4. Lexical Scope:
+    =>  Lexical scope, also known as static scope, refers to the scope resolution based on the physical placement of code in the source code. In lexical scoping, a variable is accessible in the block where it is defined and all nested blocks, regardless of the runtime flow of the program.
+
+
+=========================================================================================================================================
+
+
+What is Function expression ?
+
+    =>  function expression is a way to define a function as part of an expression, typically by assigning it to a variable. It allows functions to be used as values, assigned to variables, or passed as arguments to other functions. Unlike function declarations, function expressions are not hoisted to the top of the code and must be defined before they are used.
+
+
+=========================================================================================================================================
+
+
+What is Higher order function ?
+
+    =>  A higher-order function is a function that takes one or more functions as arguments or returns a function as its result. This concept is often associated with functional programming and provides a powerful way to compose and manipulate functions.
+
+
+=========================================================================================================================================
+
+
+Methods : 
+
+    =>  methods are functions that are associated with an object or a class. They represent actions or behaviors that an object or class can perform. Methods are called on an object and can access and modify the object's properties.
+
+
+1. Object Methods:
+    =>  In the context of objects, methods are functions that are properties of an object. They are called using the syntax `object.method()`.
+
+2. Class Methods:
+    =>  In object-oriented programming, methods are functions defined within a class. They are called on instances of the class and can access instance-specific data.
+
+3. Built-in Methods:
+    =>  Many programming languages provide built-in methods as part of standard libraries or objects. For example, array methods in JavaScript like `map()`, `filter()`, and `reduce()`.
+
+4. Instance Methods:
+    =>  Methods that operate on an instance of an object.
+
+5. Static Methods:
+    =>  Methods that belong to a class rather than instances of the class. They are often called on the class itself rather than on instances.
+
+
+=========================================================================================================================================
+
+
+What is This Keyword ?
+    
+    =>  The this keyword in JavaScript refers to the object on which a method is being called. It is a reference to the current execution context and is used to access properties and methods of the object within which it is used.
+
+
+=========================================================================================================================================
+
+what is try and catch ?
+
+    =>  The try...catch statement in JavaScript is used to handle exceptions or errors that occur within a block of code. The try block contains the code that may throw an exception, and the catch block contains the code to handle the exception if it occurs.
+
+
+=========================================================================================================================================
+
+
+What is arrow function ?
+
+    =>  Arrow functions are a concise way to write function expressions in JavaScript. They provide a more compact syntax compared to traditional function expressions and automatically capture the value of this from the surrounding code.
+
+
+=========================================================================================================================================
+
+
+What is setTimeout ?
+
+    =>  The setTimeout() method in JavaScript is used to execute a function or code block after a specified delay in milliseconds. It is commonly used to create a delay before running a specific task or to schedule a function to run in the future. 
+
+
+=========================================================================================================================================
+
+
+What is setInterval ?
+
+    =>  The setInterval() method in JavaScript is used to repeatedly execute a function or code block at a specified interval in milliseconds. It is commonly used to create a recurring task or to schedule a function to run at regular intervals.
+
+
+
+=========================================================================================================================================
+
+
+how stop setInterval ?
+
+    =>  To stop a recurring task created with setInterval(), you can use the clearInterval() method. This method takes the ID returned by setInterval() and stops the recurring task associated with that ID.
+
+
+=========================================================================================================================================
+
+
+This keyword with arrow function ?
+
+    =>  In arrow functions, the value of this is determined by the surrounding lexical context, which means that it is not affected by how or where the function is called. This behavior is different from traditional function expressions, where the value of this is determined by how the function is called.
+
+
+=========================================================================================================================================
+
+
+What is spread ?
+
+    =>  The spread operator (...) in JavaScript is used to expand an iterable (e.g., an array or string) into individual elements. It is commonly used to create a new array by combining the elements of an existing array with additional elements.
+
+
+=========================================================================================================================================
+
+
+spread with array literals ?
+
+    =>  When used with array literals, the spread operator can be used to create a new array by combining the elements of an existing array with additional elements. It provides a concise and readable way to work with arrays.
+
+
+=========================================================================================================================================
+
+
+spread with object literals ?
+
+    =>  When used with object literals, the spread operator can be used to create a new object by combining the properties of an existing object with additional properties. It provides a concise and readable way to work with objects.
+
+
+=========================================================================================================================================
+
+
+What is rest ?
+
+    =>  The rest parameter syntax (...) in JavaScript is used to represent an indefinite number of arguments as an array. It allows a function to accept any number of arguments, making it more flexible and versatile.
+
+
+=========================================================================================================================================
+
+
+What is destructuring ?
+
+    =>  Destructuring in JavaScript is a way to extract values from arrays or objects and assign them to variables in a more concise and readable manner. It provides a convenient way to work with complex data structures.
+
+
+=========================================================================================================================================
+
+
+What is default parameter ?
+
+    =>  Default parameters in JavaScript allow you to specify default values for function parameters. If a parameter is not provided when the function is called, the default value is used instead.
+
+
+=========================================================================================================================================
+
+
+Destructuring with object ?
+
+    =>  Destructuring with objects allows you to extract properties from an object and assign them to variables using a concise syntax. It provides a convenient way to work with object properties.
+
+
+=========================================================================================================================================
