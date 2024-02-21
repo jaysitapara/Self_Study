@@ -1142,7 +1142,18 @@
 // console.dir(img)
 // ----------------------------------------------------------------------------------------------------------
 // Manipulating Styling
+// using style
 // let heading = document.querySelector("h1");
 // heading.style.color = "red";
 // heading.style.backgroundColor = "yellow";
 // console.dir(heading)
+
+// change a tag color // use only inline css
+// let links = document.querySelectorAll(".box a");
+// for(links of links){
+//     links.style.color = "green"
+// }
+
+// using classList
+
+// ----------------------------------------------------------------------------------------------------------
