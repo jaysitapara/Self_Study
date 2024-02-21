@@ -1141,3 +1141,8 @@
 // img.setAttribute("class", "image")
 // console.dir(img)
 // ----------------------------------------------------------------------------------------------------------
+// Manipulating Styling
+// let heading = document.querySelector("h1");
+// heading.style.color = "red";
+// heading.style.backgroundColor = "yellow";
+// console.dir(heading)
