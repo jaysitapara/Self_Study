@@ -1110,9 +1110,34 @@
 // ----------------------------------------------------------------------------------------------------------
 // using properties & methods
 // innerText
-// let para = document.querySelector("p")
-// console.dir(para)
-// console.dir(para.innerText)
-// console.dir(para.innerHTML)
-// console.dir(para.textContent)
+// let paragraph = document.querySelector("p")
+// console.dir(paragraph)
+// console.dir(paragraph.innerText)
+// console.dir(paragraph.innerHTML)
+// console.dir(paragraph.textContent)
+// ----------------------------------------------------------------------------------------------------------
+// manupulation
+// update text
+// let paragraph = document.querySelector("p")
+// paragraph.innerText = "abc"
+
+// add new html properties
+// let paragraph = document.querySelector("p")
+// paragraph.innerHTML = "<b>Jay Sitapara</b>"
+// ----------------------------------------------------------------------------------------------------------
+// Manipulating Attribute
+// getAttribute
+// let img = document.querySelector("img");
+// img.getAttribute("id")
+// console.dir(img)
+
+// setAttribute
+// let img = document.querySelector("img");
+// img.setAttribute("id", "spiderManImg")
+// console.dir(img)
+
+// add new class in image
+// let img = document.querySelector("img");
+// img.setAttribute("class", "image")
+// console.dir(img)
 // ----------------------------------------------------------------------------------------------------------
