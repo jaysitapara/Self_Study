@@ -1155,5 +1155,7 @@
 // }
 
 // using classList
-
+let image = document.querySelector('img')
+image.classList;
+console.dir(image)
 // ----------------------------------------------------------------------------------------------------------
