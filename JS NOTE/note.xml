@@ -1,10 +1,8 @@
-Variable :
+Variable with declarations keyword :
 
     =>  In JavaScript, a variable is a symbolic name or identifier that is used to store and represent data in a program. Variables are a fundamental concept in programming languages, allowing developers to manipulate and work with data dynamically.
 
     =>  To declare a variable in JavaScript, you can use the var, let, or const keyword, followed by the variable name. Here's a brief overview of each:
-
-Variable Declaration keywords:
 
     =>  var: var was the primary keyword for declaring variables. It has function-scoping rather than block-scoping, and it is globally scoped if declared outside of any function.
 
@@ -18,8 +16,6 @@ Variable Declaration keywords:
 DataType :
 
     =>  JavaScript is a dynamically-typed language, which means that variables do not have fixed types, and their types can change during the execution of a program. JavaScript has several built-in data types, which can be broadly categorized into two main groups: primitive types and object types.
-
-Primitive Data Types:
 
     =>  Number: Represents numeric values. It can be integers or floating-point numbers.
 
