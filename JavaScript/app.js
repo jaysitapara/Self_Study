@@ -1155,6 +1155,25 @@
 // }
 
 // using classList
-let image = document.querySelector('img')
-image.classList.add("green")
+// let heading = document.querySelector('h1')
+// heading.classList.add("green")   //add class
+// heading.classList.remove("green")    //remove class
+// heading.classList.contains("underline")  //check class
+// heading.classList.toggle("underline")  //toggle class
+// console.dir(heading)
+// ----------------------------------------------------------------------------------------------------------
+// Navigation
+// parentElement
+// let h4 = document.querySelector("h4");
+// console.dir(h4.parentElement)    //show parent element
+
+// children
+// let h4 = document.querySelector("h4");
+// console.dir(h4.children)    //show children element
+// console.dir(h4.childElementCount)   //show children element count
+
+// nextElementSibling & previousElementSibling
+// let h4 = document.querySelector("h4");   //show next and previous element
+// console.dir(h4.nextElementSibling);
+// console.dir(h4.previousElementSibling);
 // ----------------------------------------------------------------------------------------------------------
