@@ -1177,3 +1177,38 @@
 // console.dir(h4.nextElementSibling);
 // console.dir(h4.previousElementSibling);
 // ----------------------------------------------------------------------------------------------------------
+// Adding ELements
+// let newP = document.createElement("p"); //create new p tag
+// newP.innerText = "jayu"; // add text into p
+// console.dir(newP);
+
+// 1. appendChild (add at end)
+// let body = document.querySelector("body");
+// body.appendChild(newP);
+// console.dir(body);
+
+// 2. append (add at end)
+// newP.append("This is new text");
+
+// 3. prepend (add at last)
+// newP.prepend("this is prepend text");
+
+// 4. insertAdjacent(where, element)
+// newP.insertAdjacentHTML("beforebegin", "<p>beforebegin</p>");
+// newP.insertAdjacentHTML("afterbegin", "<p>afterbegin</p>");
+// newP.insertAdjacentHTML("beforeend", "<p>beforeend</p>");
+// newP.insertAdjacentHTML("afterend", "<p>afterend</p>");
+// console.dir(newP);
+// ----------------------------------------------------------------------------------------------------------
+// Removing Elements
+// removeChild
+// let body = document.querySelector("body");
+// let p = document.querySelector("p");
+// body.removeChild(p);
+// console.dir(body);
+
+// remove
+// let p = document.querySelector("p");
+// p.remove();
+// console.dir(p);
+// ----------------------------------------------------------------------------------------------------------
