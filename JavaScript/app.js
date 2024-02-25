@@ -1423,14 +1423,14 @@
 
 // promise is JS object that may produce a single value some time in the future
 // with promises
-function savetoDb(data) {
-  return new Promise((resolve, reject) => {
-    let internet = Math.floor(Math.random() * 10) + 1;
-    if (internet > 4) {
-      resolve("data was saved");
-    } else {
-      reject("data wasn't save");
-    }
-  });
-}
+// function savetoDb(data) {
+//   return new Promise((resolve, reject) => {
+//     let internet = Math.floor(Math.random() * 10) + 1;
+//     if (internet > 4) {
+//       resolve("data was saved");
+//     } else {
+//       reject("data wasn't save");
+//     }
+//   });
+// }
 // savetoDb("jayu");
