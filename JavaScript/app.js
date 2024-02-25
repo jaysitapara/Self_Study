@@ -1222,9 +1222,59 @@
 // };
 
 // 2. onmouseenter (when mouse enters an element)
-let btn = document.querySelector("button");
-console.dir(btn);
+// let btn = document.querySelector("button");
+// console.dir(btn);
 
-btn.onmouseenter = function () {
-  console.log("Mouse Enter");
-};
+// btn.onmouseenter = function () {
+//   console.log("Mouse Enter");
+// };
+// ----------------------------------------------------------------------------------------------------------
+// eventListener
+// syntax
+// element.addEventListener(event, callback);
+// let btn = document.querySelectorAll("button");
+// for (btn of btn) {
+//   btn.addEventListener("click", sayHello);
+//   btn.addEventListener("click", sayName);
+//   btn.addEventListener("dblclick", function () {
+//     console.log("Double Click");
+//   });
+// }
+// function sayHello() {
+//   alert("Hello");
+// }
+// function sayName() {
+//   alert("Jay Sitapara");
+// }
+// ----------------------------------------------------------------------------------------------------------
+// using multiple elements
+// let p = document.querySelector("p");
+// p.addEventListener("click", function () {
+//   console.log("p tag clicked");
+// });
+
+// let box = document.querySelector(".box");
+// box.addEventListener("mouseenter", function () {
+//   console.log("box clicked");
+// });
+// ----------------------------------------------------------------------------------------------------------
+// this keyword in eventListener
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", function () {
+//   console.log(this);
+//   this.innerText = "Jayu";
+//   this.style.backgroundColor = "blue";
+// });
+// ----------------------------------------------------------------------------------------------------------
+// keyboard event
+// let input = document.querySelector("input");
+// input.addEventListener("keydown", function (event) {
+//   console.log(event);
+//   console.log("key was pressed");
+// });
+
+// input.addEventListener("keyup", function (event) {
+//   console.log(event);
+//   console.log("key was release");
+// });
+// ----------------------------------------------------------------------------------------------------------
