@@ -1305,3 +1305,43 @@
 //   console.log(password.value);
 // });
 // ----------------------------------------------------------------------------------------------------------
+// more events
+// let form = document.querySelector("form");
+// form.addEventListener("submit", function (event) {
+//   event.preventDefault();
+// });
+
+// // 1. change event (only for input)
+// let user = document.querySelector("#user");
+// user.addEventListener("change", function () {
+//   console.log("change event");
+//   console.log("final value : ", this.value);
+// });
+
+// // 2. input event (only for input)
+// user.addEventListener("input", function () {
+//   console.log("input event");
+//   console.log("final value : ", this.value);
+// });
+// ----------------------------------------------------------------------------------------------------------
+// event bubbling
+// let div = document.querySelector("div");
+// let ul = document.querySelector("ul");
+// let lis = document.querySelectorAll("li");
+
+// div.addEventListener("click", function () {
+//   console.log("div was clicked");
+// });
+
+// ul.addEventListener("click", function (event) {
+//   event.stopPropagation();
+//   console.log("ul was clicked");
+// });
+
+// for (let li of lis) {
+//   li.addEventListener("click", function (event) {
+//     event.stopPropagation();
+//     console.log("li was clicked");
+//   });
+// }
+// ----------------------------------------------------------------------------------------------------------
