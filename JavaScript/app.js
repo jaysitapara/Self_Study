@@ -1269,12 +1269,39 @@
 // keyboard event
 // let input = document.querySelector("input");
 // input.addEventListener("keydown", function (event) {
-//   console.log(event);
+//   console.log(event); // show with code
 //   console.log("key was pressed");
 // });
 
 // input.addEventListener("keyup", function (event) {
-//   console.log(event);
-//   console.log("key was release");
+//   console.log("code = ", event.code); //arrowUP, arrowDown, arrowLeft, arrowRight
+//   if (event.code == "ArrowUp") {
+//     console.log("character moves forward");
+//   } else if (event.code == "ArrowDown") {
+//     console.log("character moves backward");
+//   } else if (event.code == "ArrowLeft") {
+//     console.log("character moves left");
+//   } else if (event.code == "ArrowRight") {
+//     console.log("character moves right");
+//   }
+// });
+// ----------------------------------------------------------------------------------------------------------
+// from event
+// let from = document.querySelector("form");
+// from.addEventListener("submit", function (event) {
+//   event.preventDefault();   // do not redirect to another page
+//   alert("Form Submitted");
+// });
+// ----------------------------------------------------------------------------------------------------------
+// extracting form data
+// let from = document.querySelector("form");
+// from.addEventListener("submit", function (event) {
+//   event.preventDefault(); // do not redirect to another page
+
+//   let user = document.querySelector("#user");
+//   let password = document.querySelector("#password");
+
+//   console.log(user.value);
+//   console.log(password.value);
 // });
 // ----------------------------------------------------------------------------------------------------------
