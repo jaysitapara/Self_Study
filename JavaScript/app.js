@@ -1345,3 +1345,78 @@
 //   });
 // }
 // ----------------------------------------------------------------------------------------------------------
+// call stack (last in first out)
+// function first() {
+//   console.log("hello");
+// }
+// function demo(){
+//     first();
+// }
+// demo();
+
+// extra example of call stack
+// function one() {
+//     return 1;
+// }
+// function two(){
+//     return one() + one();
+// }
+// function three(){
+//     let ans = two() + one();
+//     console.log(ans);
+// }
+// three();
+// ----------------------------------------------------------------------------------------------------------
+// JS is single threaded (one command at a time)
+// let a = 25
+// console.log(a);
+// let b = 30
+// console.log(b);
+// console.log(a + b);
+
+// extra example of single threaded
+// setTimeout(() => {
+//     console.log("Hello");
+// }, 2000);
+// console.log("World"); // can't wait 2 sec. so show first world and then hello
+// ----------------------------------------------------------------------------------------------------------
+// callbacak hell (nested function)
+// h1 = document.querySelector("h1");
+// function changeColor(color, delay, nextColorChange) {
+//   setTimeout(() => {
+//     h1.style.color = color;
+//     if (nextColorChange) nextColorChange();
+//   }, delay);
+// }
+// changeColor("red", 1000, () => {
+//   changeColor("orange", 1000, () => {
+//     changeColor("yellow", 1000, () => {
+//       changeColor("green", 1000, () => {});
+//     });
+//   });
+// });
+// ----------------------------------------------------------------------------------------------------------
+// Promises (resolve, reject)
+// function savetoDb(data, success, failure) {
+//   let internet = Math.floor(Math.random() * 10) + 1;
+//   if (internet > 4) {
+//     success();
+//   } else {
+//     failure();
+//   }
+// }
+// savetoDb(
+//   "jayu",
+//   () => {
+//     console.log("Data is saved");
+//     savetoDb("new data", ()=>{
+//         console.log("Data 2 is saved");
+//     }, ()=>{
+//         console.log("Data 2 is not saved");
+//     });
+//   },
+//   () => {
+//     console.log("Data is not saved");
+//   }
+// );
+// ----------------------------------------------------------------------------------------------------------
