@@ -1397,6 +1397,7 @@
 // });
 // ----------------------------------------------------------------------------------------------------------
 // Promises (resolve, reject)
+// without promises
 // function savetoDb(data, success, failure) {
 //   let internet = Math.floor(Math.random() * 10) + 1;
 //   if (internet > 4) {
@@ -1419,4 +1420,17 @@
 //     console.log("Data is not saved");
 //   }
 // );
-// ----------------------------------------------------------------------------------------------------------
+
+// promise is JS object that may produce a single value some time in the future
+// with promises
+function savetoDb(data) {
+  return new Promise((resolve, reject) => {
+    let internet = Math.floor(Math.random() * 10) + 1;
+    if (internet > 4) {
+      resolve("data was saved");
+    } else {
+      reject("data wasn't save");
+    }
+  });
+}
+// savetoDb("jayu");
