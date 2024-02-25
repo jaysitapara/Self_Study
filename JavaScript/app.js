@@ -1212,3 +1212,19 @@
 // p.remove();
 // console.dir(p);
 // ----------------------------------------------------------------------------------------------------------
+// DOM Events
+// 1. onclick (when an element is clicked)
+// let btn = document.querySelector("button");
+// console.dir(btn);
+
+// btn.onclick = function () {
+//   console.log("Button Clicked");
+// };
+
+// 2. onmouseenter (when mouse enters an element)
+let btn = document.querySelector("button");
+console.dir(btn);
+
+btn.onmouseenter = function () {
+  console.log("Mouse Enter");
+};
