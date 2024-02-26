@@ -1433,4 +1433,86 @@
 //     }
 //   });
 // }
-// savetoDb("jayu");
+// let request = savetoDb("jayu");
+// console.log(request);
+// ----------------------------------------------------------------------------------------------------------
+// Promises (then() & catch())
+// function savetoDb(data) {
+//   return new Promise((resolve, reject) => {
+//     let internet = Math.floor(Math.random() * 10) + 1;
+//     if (internet > 4) {
+//       resolve("data was saved");
+//     } else {
+//       reject("data wasn't save");
+//     }
+//   });
+// }
+// // use
+// let request = savetoDb("jayu")
+//   .then(() => {
+//     console.log("promise was resolved");
+//   })
+//   .catch(() => {
+//     console.log("promise was rejected");
+//   });
+// ----------------------------------------------------------------------------------------------------------
+// Promises Chaining (improved version)
+// function savetoDb(data) {
+//   return new Promise((resolve, reject) => {
+//     let internet = Math.floor(Math.random() * 10) + 1;
+//     if (internet > 4) {
+//       resolve("data was saved");
+//     } else {
+//       reject("data wasn't save");
+//     }
+//   });
+// }
+// // use
+// let request = savetoDb("jayu")
+//   .then(() => {
+//     console.log("promise was resolved");
+//     return savetoDb("hello world");
+//   })
+//   .then(() => {
+//     console.log("Data 2 was saved");
+//     return savetoDb("new hello world");
+//   })
+//   .then(() => {
+//     console.log("Data 3 was saved");
+//   })
+//   .catch(() => {
+//     console.log("promise was rejected");
+//   });
+// ----------------------------------------------------------------------------------------------------------
+// Promises (promises are rejected and resolved with some DataTransfer(valid results or errors))
+// function savetoDb(data) {
+//   return new Promise((resolve, reject) => {
+//     let internet = Math.floor(Math.random() * 10) + 1;
+//     if (internet > 4) {
+//       resolve("data was saved");
+//     } else {
+//       reject("data wasn't save");
+//     }
+//   });
+// }
+// // use
+// let request = savetoDb("jayu")
+//   .then((result) => {
+//     console.log("data 1 was saved");
+//     console.log(result);
+//     return savetoDb("hello world");
+//   })
+//   .then((result) => {
+//     console.log("Data 2 was saved");
+//     console.log(result);
+//     return savetoDb("new hello world");
+//   })
+//   .then((result) => {
+//     console.log("Data 3 was saved");
+//     console.log(result);
+//   })
+//   .catch((error) => {
+//     console.log("promise was rejected");
+//     console.log("error");
+//   });
+// ----------------------------------------------------------------------------------------------------------
