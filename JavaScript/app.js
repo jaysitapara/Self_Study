@@ -1516,3 +1516,70 @@
 //     console.log("error");
 //   });
 // ----------------------------------------------------------------------------------------------------------
+// Async function (async & await keyword)
+// Async keyword
+// async function greet() {
+//     // throw "404 not found" // show err in catch
+//   return "hello";
+// }
+// greet()
+//   .then((result) => {
+//     console.log("Successful", result);
+//   })
+//   .catch((err) => {
+//     console.log("rejected", err);
+//   });
+
+// extra
+// let demo = async () => {
+//   return 5;
+// };
+// demo();
+
+// Await keyword
+// function getNum() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       let num = Math.floor(Math.random() * 10) + 1;
+//       console.log(num);
+//       resolve();
+//     }, 1000);
+//   });
+// }
+// async function demo() {
+//   await getNum();
+//   await getNum();
+//   await getNum();
+// }
+// ----------------------------------------------------------------------------------------------------------
+// handling rejection with await
+// function getNum() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       let num = Math.floor(Math.random() * 10) + 1;
+//       if (num > 5) {
+//         reject("promise rejected");
+//       }
+//       console.log(num);
+//       resolve();
+//     }, 1000);
+//   });
+// }
+// async function demo() {
+//   try {
+//     await getNum();
+//     await getNum();
+//     await getNum();
+//   } catch (error) {
+//     console.log("error caught");
+//     console.log(error);
+//   }
+
+//   let a = 5;
+//   console.log("after catch block",a);
+// }
+// demo();
+
+// ==============================================================
+
+// API (Application Programming Interface) (API format in JSON - JavaScript Object Notation)
