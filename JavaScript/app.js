@@ -1637,3 +1637,96 @@
 // getFact();
 // console.log("hello world");
 // ----------------------------------------------------------------------------------------------------------
+// Axios (library to make HTTP request)
+// let url = "https://catfact.ninja/fact";
+// async function getFact() {
+//   try {
+//     let res = await axios.get(url);
+//     console.log(res.data.fact);
+//   } catch (error) {
+//     console.log("error", error);
+//   }
+// }
+// getFact();
+
+// with html
+// fact api
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", async () => {
+//   let fact = await getFact();
+//   let p = document.querySelector("#result");
+//   p.innerText = fact;
+// });
+// let url = "https://catfact.ninja/fact";
+// async function getFact() {
+//   try {
+//     let res = await axios.get(url);
+//     return res.data.fact;
+//   } catch (error) {
+//     console.log("error", error);
+//     return "No fact found";
+//   }
+// }
+
+// dog api
+// let btn = document.querySelector("button");
+// let url = "https://dog.ceo/api/breeds/image/random";
+// btn.addEventListener("click", async () => {
+//   let link = await getImage();
+//   let img = document.querySelector("#result");
+//   img.setAttribute("src", link);
+// });
+
+// async function getImage() {
+//   try {
+//     let res = await axios.get(url);
+//     return res.data.message;
+//   } catch (error) {
+//     console.log("error", error);
+//     return "/";
+//   }
+// }
+// ----------------------------------------------------------------------------------------------------------
+// Axios (sending headers)
+// const url = "https://icanhazdadjoke.com/";
+// async function getJokes() {
+//   try {
+//     const config = { headers: { Accept: "application/json" } };
+//     let res = await axios.get(url, config);
+//     console.log(res.data);
+//   } catch (error) {
+//     console.log("error", error);
+//   }
+// }
+// getJokes();
+// ----------------------------------------------------------------------------------------------------------
+// Axios (updating query string)
+// let url = "http://universities.hipolabs.com/search?name=";
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", async () => {
+//   let country = document.querySelector("input").value;
+//   console.log(country);
+//   let colleges = await getCollege(country);
+//   show(colleges);
+// });
+// function show(colleges) {
+//   let list = document.querySelector("#list");
+//   list.innerText = "";
+//   for (colleges of colleges) {
+//     console.log(colleges.name);
+//     let li = document.createElement("li");
+//     li.innerText = colleges.name;
+//     list.appendChild(li);
+//   }
+// }
+// async function getCollege(country) {
+//   try {
+//     let res = await axios.get(url + country);
+//     return res.data;
+//   } catch (e) {
+//     console.log("error", e);
+//     return [];
+//   }
+// }
+// getCollege();
+// ----------------------------------------------------------------------------------------------------------
