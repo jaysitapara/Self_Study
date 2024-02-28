@@ -1602,3 +1602,38 @@
 // let check = JSON.stringify(student);
 // console.log(student);
 // ----------------------------------------------------------------------------------------------------------
+// our first API request (using fetch())
+// let url = "https://catfact.ninja/fact";
+// fetch(url)
+//   .then((res) => {
+//     console.log(res);
+//     return res.json();
+//   })
+//   .then((data) => {
+//     console.log("data 1 : ", data.fact);
+//     return fetch(url);
+//   })
+//   .then((res) => {
+//     return res.json();
+//   })
+//   .then((data2) => {
+//     console.log("data 2 : ", data2.fact);
+//   })
+//   .catch((err) => {
+//     console.log("error", err);
+//   });
+// ----------------------------------------------------------------------------------------------------------
+// fetch using async and await
+// let url = "https://catfact.ninja/fact";
+// async function getFact() {
+//   try {
+//     let res = await fetch(url);
+//     let data = await res.json();
+//     console.log(data.fact);
+//   } catch (error) {
+//     console.log("error", error);
+//   }
+// }
+// getFact();
+// console.log("hello world");
+// ----------------------------------------------------------------------------------------------------------
