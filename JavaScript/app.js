@@ -1587,17 +1587,18 @@
 // API format in JSON - JavaScript Object Notation
 // two methods to show api data in one format to another format
 // 1. JSON.parse (to pasre a string data into a JS object)
-let jsonRes =
-  '{"fact":"A healthy cat has a temperature between 38 and 39 degrees Celcius.","length":66}';
-let validRes = JSON.parse(jsonRes);
-console.log(validRes);
-console.log(validRes.fact);
+// let jsonRes =
+//   '{"fact":"A healthy cat has a temperature between 38 and 39 degrees Celcius.","length":66}';
+// let validRes = JSON.parse(jsonRes);
+// console.log(validRes);
+// console.log(validRes.fact);
 
 // 2. JSON.stringify(json) (to parse a js object data into JSON) (use to personal API)
-let student = {
-  name: "jay",
-  city: "Rajkot",
-  marks: 9.9,
-};
-let check = JSON.stringify(student);
-console.log(student);
+// let student = {
+//   name: "jay",
+//   city: "Rajkot",
+//   marks: 9.9,
+// };
+// let check = JSON.stringify(student);
+// console.log(student);
+// ----------------------------------------------------------------------------------------------------------

@@ -547,3 +547,8 @@ Default parameter :
 Destructuring with object :
 
     =>  Destructuring with objects allows you to extract properties from an object and assign them to variables using a concise syntax. It provides a convenient way to work with object properties.
+
+
+local storage :
+
+    => 
