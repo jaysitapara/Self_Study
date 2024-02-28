@@ -33,10 +33,6 @@ null : the null value represent the intentional absence of anyy object value.
 - 
 
 
-
-
-
-
 // api testing tools
 // 1. hoppscotch
 // 2. postman
