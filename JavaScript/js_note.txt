@@ -31,3 +31,36 @@ null : the null value represent the intentional absence of anyy object value.
 - the dom represents a Document with a logical tree.
 - it allow us to manipulate / change website content (html element)
 - 
+
+
+
+
+
+
+// api testing tools
+// 1. hoppscotch
+// 2. postman
+// ----------------------------------------------------------------------------------------------------------
+// Ajax (Asynchronous JavaScript and XML)
+// Asynchronous means code running without refresh
+// ----------------------------------------------------------------------------------------------------------
+// http verbs
+// 1. get : get a request or information
+// 2. post : post a data with API
+// 3. delete : delete a data
+// ----------------------------------------------------------------------------------------------------------
+// status code
+// 1. 200
+// 2. 404
+// 3. 400
+// 4. 500
+// ----------------------------------------------------------------------------------------------------------
+// add information in URL
+// https://www.google.com/search?q=harry+potter  (q = query(key), harry+potter = answer(value))
+// ?=name=jay&marks=99
+// if you enter other information in api to api was ignored this extra information
+
+// http headers
+// use to request and response information
+// html to json conver : Accept - application/JSON => in Headers
+// ----------------------------------------------------------------------------------------------------------

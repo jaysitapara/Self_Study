@@ -1583,6 +1583,7 @@
 // ==============================================================
 
 // API (Application Programming Interface)
+// API in two format : 1. JSON............  2. XML
 // API format in JSON - JavaScript Object Notation
 // two methods to show api data in one format to another format
 // 1. JSON.parse (to pasre a string data into a JS object)
@@ -1601,8 +1602,3 @@
 // let check = JSON.stringify(student);
 // console.log(student);
 // ----------------------------------------------------------------------------------------------------------
-// api testing tools
-// 1. hoppscotch
-// 2. postman
-// ----------------------------------------------------------------------------------------------------------
-// Ajax (Asynchronous JavaScript and XML)
