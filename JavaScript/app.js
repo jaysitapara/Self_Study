@@ -440,14 +440,14 @@
 // ==============================================================
 
 //JS object literals
-const student = {
-  name: "jay",
-  age: 20,
-  marks: 94,
-  city: "Rajkot",
-};
+// const student = {
+//   name: "jay",
+//   age: 20,
+//   marks: 94,
+//   city: "Rajkot",
+// };
 
-console.log(student);
+// console.log(student);
 // ----------------------------------------------------------------------------------------------------------
 //mini task
 // const post = {
