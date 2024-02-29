@@ -1,0 +1,22 @@
+notes: 
+
+Command Line : any interface that is used by entering textual commands
+Terminal : This is a type of command Line
+Console : A command line interface used to work with your computer
+Shell : A program running on Terminal
+Bash : A popular running on Terminal
+Z - Shell : Another shell (default)
+
+
+
+
+
+
+
+
+
+
+================================================================================
+command :
+
+Create new folder => ( mkdir fileName )
