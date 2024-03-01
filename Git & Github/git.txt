@@ -17,3 +17,17 @@ Using git :
 - IDE / Code editors (Like VSCode)
 - Graphical user interface (Like GitKraken)
 
+Configuring Git :
+- gut config --global user.name "My Name"
+- gut config --global user.email "someone@gmail.com"
+
+show git configuring list :
+- git config --list
+
+Clone :
+- Cloning a repository on our local machine
+- git clone https://github.com/jay-sitapara/repo/self-study
+
+Status :
+- Display the state of the code
+- git status
