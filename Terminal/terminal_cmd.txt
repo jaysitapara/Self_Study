@@ -1,8 +1,18 @@
 notes: 
 
+Different Terms : 
 Command Line : any interface that is used by entering textual commands
 Terminal : This is a type of command Line
 Console : A command line interface used to work with your computer
 Shell : A program running on Terminal
 Bash : A popular running on Terminal
 Z - Shell : Another shell (default)
+
+
+command : 
+ls : list files (show my files)
+pwd : print working directory ( where am i ? )
+clear : clear Console
+cd : change directory
+cd .. : back button
+cd Desktop/abc : move on Desktop folder
