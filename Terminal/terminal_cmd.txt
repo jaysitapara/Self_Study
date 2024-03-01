@@ -7,6 +7,11 @@ Console : A command line interface used to work with your computer
 Shell : A program running on Terminal
 Bash : A popular running on Terminal
 Z - Shell : Another shell (default)
+root directory using slash (/)
+absolute directory using dashed (-)
+flags : flags are character that we pass with commands to modify that behaviour
+
+
 
 
 command : 
@@ -15,4 +20,12 @@ pwd : print working directory ( where am i ? )
 clear : clear Console
 cd : change directory
 cd .. : back button
+cd ../.. : back two step return
 cd Desktop/abc : move on Desktop folder
+mkdir folderName : making directory 
+man ls : give info about ls command
+man mkdir : give info about mkdir command
+touch : create a new file (touch index.html) / change file access and modification 
+rm : remove file
+rmdir : removes empty folder
+rm -rf : removes any folder

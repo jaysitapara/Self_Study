@@ -1,0 +1,19 @@
+what is git ?
+- Free & open source version control system 
+- Tools to help to tracks changes in code
+- Track history
+- Help to collabrate
+
+what is github ?
+- Website where we host repositories online
+
+how's work ?
+- Create repository
+- Add file
+- Commit changes (stamp)
+
+Using git :
+- Command line
+- IDE / Code editors (Like VSCode)
+- Graphical user interface (Like GitKraken)
+
