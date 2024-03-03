@@ -1075,7 +1075,7 @@
 // change innerText
 // console.dir(document.all[8].innerText = "Peter Parker")
 
-// selecting elements
+// // selecting elements
 // document.getElementById
 // document.getElementById("mainImg")
 // let imgObj = document.getElementById("mainImg");
