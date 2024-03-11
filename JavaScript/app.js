@@ -27,7 +27,7 @@
 // console.log(output);
 // ----------------------------------------------------------------------------------------------------------
 // operator in JS
-//Ariyhmatic operators
+//Arihmatic operators
 // let a = 10;
 // let b = 5;
 // console.log(a + b); //addition
