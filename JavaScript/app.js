@@ -1303,6 +1303,8 @@
 
 //   console.log(user.value);
 //   console.log(password.value);
+
+//   alert(`Hey ${user.value}, Your password is set to ${password.value}`);
 // });
 // ----------------------------------------------------------------------------------------------------------
 // more events
