@@ -1,31 +1,58 @@
-notes: 
+1. The Terminal:
+=> A text input and output environment.
 
-Different Terms : 
-Command Line : any interface that is used by entering textual commands
-Terminal : This is a type of command Line
-Console : A command line interface used to work with your computer
-Shell : A program running on Terminal
-Bash : A popular running on Terminal
-Z - Shell : Another shell (default)
-root directory using slash (/)
-absolute directory using dashed (-)
-flags : flags are character that we pass with commands to modify that behaviour
+2. Different Terms:
+=> a. Command Line: Any interface that is used by entering textual commands (gen. Windows centric).
+   b. Terminal: This is a type of command line (gen. Mac centric).
+   c. Console: A command-line interface used to work with your computer.
+   d. Shell: A program running on terminal.
+   e. Bash: A popular shell on Mac OS/ Linux.
+   f. Z-Shell: Another shell (default).
 
+3. Basic Commands:
+=> a. pwd: Print Working Directory.
+   b. ls: List files.
+   c. cd: Change Directory.
+   d. mkdir: Make Directory.
+   e. touch: Create a file.
+   f. rm: Remove.
+   g. rmdir: Remove Directory.
+   h. clear: Clear the terminal.
+   i. echo: Print to the terminal.
+   j. cat: Concatenate and print files
 
+4. Navigation (Inside & Outside Directory):
+=> a. cd ..: Go back one directory.
+   b. cd ~: Go to home directory.
+   c. cd -: Go to the previous directory.
+   d. cd /: Go to the root directory.
+   e. cd ../..: Go back two directories.
+   f. cd ../../..: Go back three directories.
 
+5. Paths (Absolute & Relative):
+=> a. Absolute Path: The full path from the root directory.
+   b. Relative Path: The path from the current directory.
 
-command : 
-ls : list files (show my files)
-pwd : print working directory ( where am i ? )
-clear : clear Console
-cd : change directory
-cd .. : back button
-cd ../.. : back two step return
-cd Desktop/abc : move on Desktop folder
-mkdir folderName : making directory 
-man ls : give info about ls command
-man mkdir : give info about mkdir command
-touch : create a new file (touch index.html) / change file access and modification 
-rm : remove file
-rmdir : removes empty folder
-rm -rf : removes any folder
+6. Making directories:
+=> a. mkdir folder_name: Create a new directory.
+   b. mkdir -p folder1/folder2/folder3: Create nested directories.
+
+7. Flags:
+=> Flags are character that we pass with commands to modify their behaviour.
+   => Manual Command (man):
+      a. man ls: give info about ls command.
+      b. man makdir: give info about mkdir command.
+   => with Flags:
+      a. ls -/
+      b. ls -a
+
+8. Touch Command:
+=> Used to create a new file.
+   a. touch file_name: Create a new file.
+   b. touch file1 file2 file3: Create multiple files.
+
+9. Deleting Files & Folders:
+=> a. rm file_name: Remove a file.
+   b. rm -r folder_name: Remove a folder.
+   c. rm -rf folder_name: Remove a folder forcefully.
+   d. rmdir folder_name: Remove an empty folder.
