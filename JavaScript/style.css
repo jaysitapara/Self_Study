@@ -45,3 +45,8 @@ ul {
 li {
   background-color: greenyellow;
 }
+
+#result{
+  height: 50%;
+  width: 50%;
+}

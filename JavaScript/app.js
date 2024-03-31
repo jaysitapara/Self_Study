@@ -1653,41 +1653,41 @@
 
 // with html
 // fact api
-let btn = document.querySelector("button");
-btn.addEventListener("click", async () => {
-  let fact = await getFact();
-  let p = document.querySelector("#result");
-  p.innerText = fact;
-});
-let url = "https://catfact.ninja/fact";
-async function getFact() {
-  try {
-    let res = await axios.get(url);
-    return res.data.fact;
-  } catch (error) {
-    console.log("error", error);
-    return "No fact found";
-  }
-}
-
-// dog api
 // let btn = document.querySelector("button");
-// let url = "https://dog.ceo/api/breeds/image/random";
 // btn.addEventListener("click", async () => {
-//   let link = await getImage();
-//   let img = document.querySelector("#result");
-//   img.setAttribute("src", link);
+//   let fact = await getFact();
+//   let p = document.querySelector("#result");
+//   p.innerText = fact;
 // });
-
-// async function getImage() {
+// let url = "https://catfact.ninja/fact";
+// async function getFact() {
 //   try {
 //     let res = await axios.get(url);
-//     return res.data.message;
+//     return res.data.fact;
 //   } catch (error) {
 //     console.log("error", error);
-//     return "/";
+//     return "No fact found";
 //   }
 // }
+
+// dog api
+let btn = document.querySelector("button");
+let url = "https://dog.ceo/api/breeds/image/random";
+btn.addEventListener("click", async () => {
+  let link = await getImage();
+  let img = document.querySelector("#result");
+  img.setAttribute("src", link);
+});
+
+async function getImage() {
+  try {
+    let res = await axios.get(url);
+    return res.data.message;
+  } catch (error) {
+    console.log("error", error);
+    return "/";
+  }
+}
 // ----------------------------------------------------------------------------------------------------------
 // Axios (sending headers)
 // const url = "https://icanhazdadjoke.com/";
