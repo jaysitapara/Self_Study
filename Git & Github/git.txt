@@ -1,3 +1,87 @@
+1. The Terminal:
+=> A text input and output environment.
+
+2. Different Terms:
+=> a. Command Line: Any interface that is used by entering textual commands (gen. Windows centric).
+   b. Terminal: This is a type of command line (gen. Mac centric).
+   c. Console: A command-line interface used to work with your computer.
+   d. Shell: A program running on terminal.
+   e. Bash: A popular shell on Mac OS/ Linux.
+   f. Z-Shell: Another shell (default).
+
+3. Basic Commands:
+=> a. pwd: Print Working Directory.
+   b. ls: List files.
+   c. cd: Change Directory.
+   d. mkdir: Make Directory.
+   e. touch: Create a file.
+   f. rm: Remove.
+   g. rmdir: Remove Directory.
+   h. clear: Clear the terminal.
+   i. echo: Print to the terminal.
+   j. cat: Concatenate and print files
+
+4. Navigation (Inside & Outside Directory):
+=> a. cd ..: Go back one directory.
+   b. cd ~: Go to home directory.
+   c. cd -: Go to the previous directory.
+   d. cd /: Go to the root directory.
+   e. cd ../..: Go back two directories.
+   f. cd ../../..: Go back three directories.
+
+5. Paths (Absolute & Relative):
+=> a. Absolute Path: The full path from the root directory.
+   b. Relative Path: The path from the current directory.
+
+6. Making directories:
+=> a. mkdir folder_name: Create a new directory.
+   b. mkdir -p folder1/folder2/folder3: Create nested directories.
+
+7. Flags:
+=> Flags are character that we pass with commands to modify their behaviour.
+   => Manual Command (man):
+      a. man ls: give info about ls command.
+      b. man makdir: give info about mkdir command.
+   => with Flags:
+      a. ls -/
+      b. ls -a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 what is git ?
 - Free & open source version control system 
 - Tools to help to tracks changes in code
@@ -18,8 +102,8 @@ Using git :
 - Graphical user interface (Like GitKraken)
 
 Configuring Git :
-- gut config --global user.name "My Name"
-- gut config --global user.email "someone@gmail.com"
+- git config --global user.name "My Name"
+- git config --global user.email "someone@gmail.com"
 
 show git configuring list :
 - git config --list
