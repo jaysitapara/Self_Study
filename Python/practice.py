@@ -72,8 +72,8 @@ comment
 # print(a-b)
 # print(a*b)
 # print(a/b)
-# print(a%b)
-# print(a**b)
+# print(a%b) #Reminder
+# print(a**b) #power a^b
 
 # 2. Relational / comparison operators
 # a = 5
@@ -557,3 +557,28 @@ comment
 #     print(i)
 #     i+=1
 # ----------------------------------------------------------------------------------------------------------------------
+
+# Function in python
+# def sum(a, b):
+#     s = a + b
+#     return s
+
+# print(sum(2,3))
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Average Functions
+# def calc_avg(a,b,c):
+#     sum = a+b+c
+#     avg = sum / 3
+#     print(avg)
+#     return avg
+
+# calc_avg(98,97,95)
+# ----------------------------------------------------------------------------------------------------------------------
+
+# Function Types
+# 1. Built-in Function
+print("hello world")
+print(len("hello world"))
+
+# 2. User defined Function
