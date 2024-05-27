@@ -1,0 +1,60 @@
+The Pandas library in Python provides numerous methods for working with DataFrame objects. Here's a list of some common methods:
+
+1.  Creation :
+   -  pd.DataFrame() : Creates a new DataFrame.
+   -  DataFrame.from_dict() : Creates a DataFrame from a dictionary.
+   -  DataFrame.from_records() : Creates a DataFrame from a list of tuples or records.
+   -  DataFrame.from_csv() : Deprecated. Use  pd.read_csv()  instead.
+
+2.  Viewing/Inspecting Data :
+   -  head() : View the first n rows.
+   -  tail() : View the last n rows.
+   -  info() : Display DataFrame info.
+   -  describe() : Summary statistics.
+   -  dtypes : Data types of columns.
+   -  columns : Returns column names.
+   -  index : Returns index (row labels).
+   -  shape : Returns the dimensions of the DataFrame.
+
+3.  Indexing and Selecting Data :
+   -  loc[] : Access a group of rows and columns by labels.
+   -  iloc[] : Access a group of rows and columns by integer position.
+   -  at[] : Access a single value by row and column labels.
+   -  iat[] : Access a single value by row and column position.
+   -  [] : Slice, index, or select rows and columns.
+
+4.  Data Cleaning :
+   -  dropna() : Drop missing values.
+   -  fillna() : Fill missing values.
+   -  replace() : Replace values.
+   -  drop_duplicates() : Remove duplicate rows.
+   -  astype() : Cast DataFrame to a specified dtype.
+   -  rename() : Rename columns.
+
+5.  Data Manipulation :
+   -  merge() : Merge DataFrames.
+   -  concat() : Concatenate DataFrames.
+   -  groupby() : Group DataFrame using a mapper or by a Series of columns.
+   -  pivot_table() : Create a spreadsheet-style pivot table.
+
+6.  Computations/Operations :
+   -  mean() : Compute mean of groups.
+   -  sum() : Compute sum of groups.
+   -  max() ,  min() : Compute maximum, minimum values.
+   -  count() : Count non-NA/null observations.
+   -  apply() : Apply a function along an axis of the DataFrame.
+
+7.  Sorting and Ranking :
+   -  sort_values() : Sort by values.
+   -  sort_index() : Sort by index.
+   -  rank() : Compute numerical data ranks.
+
+8.  Visualization :
+   -  plot() : Plot data.
+
+9.  Input/Output :
+   -  to_csv() : Write DataFrame to a comma-separated values (csv) file.
+   -  to_excel() : Write DataFrame to an Excel file.
+   -  to_sql() : Write DataFrame to a SQL database.
+   -  read_csv() : Read a CSV file into DataFrame.
+   -  read_excel() : Read an Excel file into DataFrame.

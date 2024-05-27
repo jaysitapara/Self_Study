@@ -1,0 +1,65 @@
+print() => print output on single line
+println() => print output on next line
+print("\n") => print output on next line
+
+variable => store value in memory (value is change in future)
+
+data type => (Java is typed language it means before define variable add datatype)
+    1. Primitive datatype (built-in datatype)
+        byte
+        short
+        char
+        boolean
+        int
+        long
+        float
+        double
+    
+    2. Non-Primitive datatype (customized)
+        String
+        Array
+        Class
+        Object
+        Interface
+
+Keyword => Pre define words and this words are not use for our it's use for specific work
+
+String => Strings are immutable in Java
+
+operators => Symbols that tell compiler to perform some operations.
+
+Binary operators => perform operations between 2 operators
+
+Bitwise operator => &, |, ^, ~, <<, >>
+
+operators =>
+        binary operators => +, -, *, /, %
+        unary operators => ++, --
+        relational operator => ==, !=, >, <, <=, >=
+        Logical operator => &&, ||, !(a<b)
+        bitwise operator => &, |, ^
+        Assignment operators => =, +=, -=, *=, /=
+
+Binary Number => 2 numbers (0 & 1)
+binary number 0 to 7 => 
+        0 => 000
+        1 => 001
+        2 => 010
+        3 => 011
+        4 => 100
+        5 => 101
+        6 => 110
+        7 => 111
+
+Octal number system => Base 8
+
+Hexadecimal nuumber system => Base 16
+
+True => 1
+False => 0
+
+Bit Manupulation => (this all operations are called bit mask)
+        1. Get (find bit)
+        2. Set (set bit on any position)
+        3. Clear (bit in clear value or set 0)
+        4. Update (Update bit)

@@ -1,0 +1,46 @@
+// Database Operations
+use <database>
+show dbs
+db.dropDatabase()
+
+// Collection Operations
+db.createCollection(name, options)
+show collections
+db.collection.drop()
+
+// Document Operations
+db.collection.insert(document)
+db.collection.find(query, projection)
+db.collection.update(query, update, options)
+db.collection.deleteOne(query)
+db.collection.deleteMany(query)
+db.collection.findOne(query, projection)
+db.collection.aggregate(pipeline)
+
+// Index Operations
+db.collection.createIndex(keys, options)
+db.collection.getIndexes()
+db.collection.dropIndex(index)
+
+// User and Role Management
+db.createUser(userDocument)
+db.dropUser(username)
+db.grantRolesToUser(username, roles)
+db.revokeRolesFromUser(username, roles)
+
+// Server Management
+db.serverStatus()
+db.stats()
+db.adminCommand({<command>: 1})
+
+// Replication and Sharding
+rs.status()
+sh.status()
+
+// Backup and Restore
+mongodump
+mongorestore
+
+// Miscellaneous
+help
+exit or quit
