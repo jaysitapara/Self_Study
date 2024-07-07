@@ -1073,14 +1073,14 @@
 // DOM (Document Object Model)
 
 // change innerText
-// console.dir(document.all[8].innerText = "Peter Parker")
+// console.dir((document.all[8].innerText = "Peter Parker"));
 
-// // selecting elements
-// document.getElementById
-// document.getElementById("mainImg")
+// selecting elements
+// document.getElementById;
+// document.getElementById("mainImg");
 // let imgObj = document.getElementById("mainImg");
-// imgObj.src     // Access id's property
-// imgObj.src = "./assets/creation_1.png"       // update image src
+// imgObj.src; // Access id's property
+// imgObj.src = "./assets/creation_1.png"; // update image src
 // ----------------------------------------------------------------------------------------------------------
 // document.getElementByClassName
 // let img = document.getElementsByClassName("oldImg")
@@ -1631,7 +1631,7 @@
 //   try {
 //     let res = await fetch(url);
 //     let data = await res.json();
-//     console.log(data.fact); 
+//     console.log(data.fact);
 //   } catch (error) {
 //     console.log("error", error);
 //   }
