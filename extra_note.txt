@@ -1,1 +1,522 @@
-what is hashable type in python : in set does not allow list
+=> JavaScript Fundamentals
+1. Difference between `let`, `const`, and `var`:
+   - `var` is function-scoped and can be re-declared and updated.
+   - `let` is block-scoped and can be updated but not re-declared within the same scope.
+   - `const` is block-scoped, cannot be updated or re-declared.
+
+2. Closure:
+   - A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.
+
+3. Prototypal inheritance:
+   - Prototypal inheritance allows objects to inherit properties and methods from other objects.
+
+=> React
+1. Virtual DOM:
+   - The virtual DOM is a lightweight representation of the real DOM, used by React to efficiently update the real DOM.
+
+2. State and Props:
+   - `State` is a local data storage that is mutable and used to manage the component's data.
+   - `Props` are immutable inputs passed from a parent component to a child component.
+
+3. Hooks in React:
+   - Hooks are functions that let you use state and other React features in functional components.
+
+=> Node.js and Express.js
+1. Role of middleware:
+   - Middleware functions in Express.js execute during the lifecycle of a request, modifying the request and response objects, ending the request-response cycle, or calling the next middleware function.
+
+2. Error handling in Express.js:
+   - Error handling in Express.js is done using middleware functions that take four arguments: `err`, `req`, `res`, and `next`.
+
+3. Event loop in Node.js:
+   - The event loop is a single-threaded loop that handles asynchronous operations, allowing non-blocking I/O.
+
+=> MongoDB
+1. NoSQL database:
+   - A NoSQL database is a non-relational database designed for storing and retrieving data that is not necessarily structured in tables.
+
+2. Creating a schema in MongoDB using Mongoose:
+   - A schema in Mongoose is a structure that defines the shape and content of documents in a MongoDB collection.
+
+3. Indexes in MongoDB:
+   - Indexes are special data structures that improve the speed of query operations by allowing the database to quickly locate data.
+
+=> Problem-Solving and Coding Questions
+
+=> Algorithm and Data Structures
+1. Reverse a string:
+   - A function that reverses the characters in a string.
+
+2. Queue using two stacks:
+   - A queue data structure implemented using two stack data structures.
+
+3. Find the largest number in an array:
+   - A function that returns the largest number from an array of numbers.
+
+=> React Coding Challenges
+1. To-do list application:
+   - A simple application that allows users to add and display tasks.
+
+2. Counter with increment and decrement:
+   - A component that has buttons to increase and decrease a counter value.
+
+=> Backend Coding Challenges
+1. User authentication endpoint:
+   - An API endpoint that verifies user credentials and provides access control.
+
+2. REST API with CRUD operations:
+   - An API that allows Create, Read, Update, and Delete operations on data.
+
+=> Conceptual and Design Questions
+
+=> System Design
+1. URL shortening service:
+   - A service that generates shorter versions of long URLs for easier sharing.
+
+2. Architecture of a MERN stack application:
+   - A full-stack application built with MongoDB, Express.js, React, and Node.js, where the frontend communicates with the backend, which interacts with the database.
+
+=> Best Practices
+1. Clean and maintainable code:
+   - Practices like consistent coding style, modular code, meaningful naming, commenting, and unit testing.
+
+2. Security in a MERN stack application:
+   - Measures like using HTTPS, input validation, parameterized queries, authentication, and encryption.
+
+=> Behavioral Questions
+
+=> Past Experiences
+1. Project experience:
+   - Describing a project, your role, technologies used, challenges faced, contributions, and outcomes.
+
+2. Challenging problem:
+   - A specific problem, steps taken to address it, solutions considered, and final resolution.
+
+=> Soft Skills
+1. Prioritizing tasks:
+   - Techniques for managing multiple projects, breaking down tasks, setting deadlines, and team communication.
+
+2. Handling feedback and criticism:
+   - Viewing feedback as growth opportunities, listening actively, asking clarifying questions, and implementing constructive feedback.
+
+=> Scenario-Based Questions
+
+=> Debugging
+1. Debugging a React performance issue:
+   - Identifying performance bottlenecks and optimizing re-renders using tools and best practices.
+
+2. Troubleshooting a failing API endpoint:
+   - Steps to check network requests, server logs, API implementation, and database connections.
+
+=> Optimization
+1. Optimizing a React application:
+   - Techniques like code splitting, lazy loading, optimizing component rendering, and efficient state management.
+
+2. Improving MongoDB query efficiency:
+   - Strategies like creating indexes, using aggregation pipelines, optimizing data modeling, and monitoring query performance.
+
+
+===================================================================
+
+
+HTTP methods in JavaScript are used to communicate with servers, typically through APIs, using HTTP requests. The common HTTP methods are:
+
+1. GET:
+   - Used to retrieve data from the server.
+   - Should not have side effects (i.e., it's idempotent and safe).
+
+2. POST:
+   - Used to send data to the server, typically to create new resources.
+   - Can have side effects and is not idempotent.
+
+3. PUT:
+   - Used to update an existing resource or create a new resource if it doesn't exist.
+   - Is idempotent, meaning repeated requests with the same data will produce the same result.
+
+4. DELETE:
+   - Used to delete a resource from the server.
+   - Is idempotent.
+
+5. PATCH:
+   - Used to apply partial modifications to a resource.
+   - Not necessarily idempotent, as the result can vary depending on the current state of the resource.
+
+6. OPTIONS:
+   - Used to describe the communication options for the target resource.
+   - Often used in CORS (Cross-Origin Resource Sharing) preflight requests.
+
+7. HEAD:
+   - Similar to GET but only retrieves the headers and not the body.
+   - Useful for checking if a resource exists or getting metadata.
+
+
+===================================================================
+
+
+=> JSON (JavaScript Object Notation)
+
+Definition: JSON is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is text-based and uses a key-value pair structure similar to JavaScript objects.
+
+=> Structure of JSON
+
+1. Objects:
+   - Enclosed in curly braces `{}`.
+   - Consist of key-value pairs where keys are strings and values can be of various types.
+
+2. Arrays:
+   - Enclosed in square brackets `[]`.
+   - Can contain multiple values separated by commas, which can be of different types.
+
+3. Values:
+   - Can be strings, numbers, objects, arrays, `true`, `false`, or `null`.
+
+
+===================================================================
+
+=> API (Application Programming Interface)
+
+Definition: An API is a set of rules and protocols that allows different software applications to communicate with each other. It defines how requests and responses should be formatted and processed.
+
+=> Key Components of an API
+
+1. Endpoint:
+   - The specific URL where an API can be accessed by clients to perform actions or retrieve data.
+
+2. Request:
+   - The call made by a client to an API endpoint, specifying the action to be performed. It includes information like the desired operation, any necessary parameters, and sometimes authentication details.
+
+3. Response:
+   - The data sent back by the server in response to an API request, including the result of the request and any requested information.
+
+4. Methods:
+   - The HTTP methods used to specify the action desired:
+     - GET: Retrieve data.
+     - POST: Send data to create a new resource.
+     - PUT: Update an existing resource.
+     - DELETE: Remove a resource.
+     - PATCH: Partially update a resource.
+
+=> Types of APIs
+
+1. Web APIs:
+   - Accessible over the web using HTTP/HTTPS.
+   - Often follow REST (Representational State Transfer) principles or use GraphQL.
+
+2. Library/Framework APIs:
+   - Interfaces provided by libraries or frameworks to interact with their functionalities.
+
+3. Operating System APIs:
+   - Interfaces provided by operating systems to interact with hardware and system resources.
+
+4. Database APIs:
+   - Interfaces for interacting with databases to perform operations like querying and updating data.
+
+=> Benefits of APIs
+
+1. Interoperability:
+   - Enable different systems and applications to work together, even if they are built with different technologies.
+
+2. Modularity:
+   - Allow applications to be built in a modular way, where different parts of the application can be developed and updated independently.
+
+3. Reusability:
+   - Promote code reuse by providing standardized ways to access functionalities across different applications.
+
+4. Scalability:
+   - Allow systems to scale by enabling distributed architectures where different services can communicate via APIs.
+
+=> Common Use Cases
+
+1. Web Services:
+   - APIs enable web services to communicate with each other, such as a weather app retrieving data from a weather service.
+
+2. Third-Party Integrations:
+   - Allow applications to integrate with third-party services, like payment gateways or social media platforms.
+
+3. Internal Microservices:
+   - Used within organizations to enable communication between different microservices in a microservices architecture.
+
+=> Security Considerations
+
+1. Authentication and Authorization:
+   - Ensuring that only authorized clients can access the API and perform certain actions.
+
+2. Rate Limiting:
+   - Controlling the number of requests a client can make to prevent abuse and ensure fair usage.
+
+3. Data Validation and Sanitization:
+   - Validating and sanitizing input data to prevent security vulnerabilities like SQL injection and cross-site scripting (XSS).
+
+APIs are essential for modern software development, enabling seamless communication and integration between different systems and services.
+
+===================================================================
+
+what is noodejs :
+Node.js is an open-source, cross-platform runtime environment that executes JavaScript code outside of a web browser. It is commonly used for building scalable network applications, server-side scripting, and running JavaScript on the server side.Node.js is primarily used for building scalable network applications and server-side scripting.
+===================================================================
+
+
+why use MERN :
+
+The MERN stack (MongoDB, Express.js, React, Node.js) is popular for full-stack web development due to its robustness, flexibility, and efficiency:
+
+1. MongoDB: Provides a flexible, NoSQL database solution that stores data in JSON-like documents, making it easy to integrate with JavaScript-based applications.
+
+2. Express.js: A minimalist and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications.
+
+3. React: A powerful JavaScript library for building user interfaces. It enables developers to create dynamic and interactive UI components efficiently.
+
+4. Node.js: A runtime environment that allows developers to run JavaScript code on the server side, facilitating the development of fast and scalable server applications.
+
+Together, the MERN stack offers a cohesive development experience, where developers can use JavaScript across the entire application stack (front-end and back-end), leading to better code reuse, productivity, and performance optimization.
+===================================================================
+
+
+Why use JavaScript :
+JavaScript (JS) is a high-level, interpreted programming language that is primarily used for creating interactive and dynamic behavior in web browsers. It allows developers to manipulate web page content, respond to user actions, and build robust applications both on the client-side (in web browsers) and server-side (using platforms like Node.js).
+
+===================================================================
+
+Advantage of MERN and js :
+
+1. JavaScript (JS): JavaScript is a high-level, interpreted programming language primarily used for creating dynamic and interactive behavior in web browsers. It enables developers to manipulate web page content, respond to user actions, and build powerful applications on both client-side and server-side environments.
+
+2. MERN Stack: The MERN stack is a full-stack development framework that includes four key technologies:
+   - MongoDB: A flexible and scalable NoSQL database.
+   - Express.js: A minimalist web application framework for Node.js, providing robust features for building web applications.
+   - React: A JavaScript library for building user interfaces, known for its component-based architecture and efficiency in creating single-page applications.
+   - Node.js: A runtime environment that allows developers to run JavaScript on the server side, facilitating the creation of fast and scalable network applications.
+
+Together, the MERN stack leverages JavaScript across the entire application stack, enabling developers to build modern and efficient web applications.
+
+===================================================================
+
+
+# MongoDB Commands File
+
+=> Connect to MongoDB Server
+mongo
+
+=> Show Databases
+show dbs
+
+=> Use a Specific Database
+use database_name
+
+=> Show Collections in Current Database
+show collections
+
+=> Insert Document into Collection
+db.collection_name.insertOne({ key: "value" })
+
+=> Find All Documents in Collection
+db.collection_name.find()
+
+=> Find Documents with Query
+db.collection_name.find({ key: "value" })
+
+=> Update Document
+db.collection_name.updateOne(
+  { key: "value" },
+  { $set: { updated_key: "new_value" } }
+)
+
+=> Delete Document
+db.collection_name.deleteOne({ key: "value" })
+
+=> Aggregate Data
+db.collection_name.aggregate([
+  { $match: { key: "value" } },
+  { $group: { _id: "$group_field", total: { $sum: "$field_to_sum" } } }
+])
+
+=> Create Index
+db.collection_name.createIndex({ key: 1 })
+
+=> Drop Index
+db.collection_name.dropIndex("index_name")
+
+=> Exit MongoDB Shell
+exit
+
+
+===================================================================
+
+
+-- SQL Query List
+
+-- Basic Queries
+1. Select All Rows and Columns
+   SELECT * FROM table_name;
+
+2. Select Specific Columns
+   SELECT column1, column2 FROM table_name;
+
+3. Filter Rows with WHERE Clause
+   SELECT * FROM table_name WHERE condition;
+
+4. Sorting Rows
+   SELECT * FROM table_name ORDER BY column_name ASC|DESC;
+
+5. Limiting Rows
+   SELECT * FROM table_name LIMIT count;
+
+-- Aggregate Functions
+6. Count Rows
+   SELECT COUNT(*) FROM table_name;
+
+7. Sum of Values
+   SELECT SUM(column_name) FROM table_name;
+
+8. Average of Values
+   SELECT AVG(column_name) FROM table_name;
+
+9. Maximum Value
+   SELECT MAX(column_name) FROM table_name;
+
+10. Minimum Value
+    SELECT MIN(column_name) FROM table_name;
+
+-- Joins
+11. Inner Join
+    SELECT * FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;
+
+12. Left Join
+    SELECT * FROM table1 LEFT JOIN table2 ON table1.column_name = table2.column_name;
+
+13. Right Join
+    SELECT * FROM table1 RIGHT JOIN table2 ON table1.column_name = table2.column_name;
+
+-- Subqueries
+14. Subquery as a Column
+    SELECT column_name, (SELECT MAX(other_column) FROM other_table) AS max_value FROM table_name;
+
+15. Subquery with IN
+    SELECT * FROM table_name WHERE column_name IN (SELECT column_name FROM other_table WHERE condition);
+
+-- Data Modification
+16. Inserting Data
+    INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+17. Updating Data
+    UPDATE table_name SET column_name = new_value WHERE condition;
+
+18. Deleting Data
+    DELETE FROM table_name WHERE condition;
+
+-- Miscellaneous
+19. Grouping Rows
+    SELECT column1, COUNT(*) FROM table_name GROUP BY column1;
+
+20. Creating a New Table
+    CREATE TABLE new_table (
+      column1 datatype,
+      column2 datatype,
+      ...
+    );
+
+21. Altering a Table
+    ALTER TABLE table_name ADD column_name datatype;
+
+===================================================================
+
+
+COOKIE AND SESSION DEFINITION :
+
+=> Cookie:
+A cookie is a small piece of data sent from a website and stored in a user's web browser while the user is browsing. Cookies are used to remember stateful information, user preferences, and tracking information across different pages or sessions.
+
+=> Session:
+A session refers to the period during which a user interacts with a web application or website. It starts when a user accesses the application and ends when the user closes the browser, logs out, or after a period of inactivity. Sessions are typically managed using session identifiers or tokens exchanged between the client (browser) and the server to maintain stateful interactions.
+
+
+===================================================================
+
+=> Local:
+Local refers to entities (such as variables, functions, or scopes) that are defined within a limited or specific context, typically within a specific block of code, function, or module. These entities are accessible only within their defined scope and are not visible or accessible from outside that scope.
+
+=> Global:
+Global refers to entities (again, variables, functions, or scopes) that are defined in a broader context and are accessible throughout the entire program or application. Global entities are not limited to a specific block or function and can be accessed and modified from any part of the codebase.
+
+In essence:
+- Local entities are confined to a specific scope (like within a function).
+- Global entities are accessible across the entire program or application.
+
+===================================================================
+
+=> require:
+- require is a function in Node.js used to import modules. It follows the CommonJS module system, allowing JavaScript files to import functionality from other modules by specifying the module's path. Example:
+  ```javascript
+  const fs = require('fs');
+  ```
+  Here, `require('fs')` imports the built-in Node.js module `fs` (File System).
+
+=> import:
+- import is a statement introduced in ECMAScript (ES6) for importing functionality from other modules. It is part of the ES module system and supports asynchronous loading, named exports, and default exports. Example:
+  ```javascript
+  import { React } from 'react';
+  ```
+  Here, `import { React } from 'react'` imports the named export `React` from the `react` module.
+
+=> Summary:
+- require: CommonJS module system, used in Node.js, synchronous loading.
+- import: ES module system, introduced in ES6, supports named exports, default exports, and asynchronous loading.
+
+===================================================================
+
+1. Mouse Events:
+   - `click` - Occurs when the mouse button is clicked.
+   - `dblclick` - Occurs when the mouse button is double-clicked.
+   - `mouseover` - Occurs when the mouse pointer moves over an element.
+   - `mouseout` - Occurs when the mouse pointer moves out of an element.
+
+   - `mousemove` - Occurs when the mouse pointer is moved over an element.
+   - `mousedown` - Occurs when the mouse button is pressed down on an element.
+   - `mouseup` - Occurs when the mouse button is released over an element.
+
+2. Keyboard Events:
+   - `keydown` - Occurs when a key is pressed down.
+   - `keyup` - Occurs when a key is released.
+   - `keypress` - Occurs when a key is pressed and released.
+
+3. Form Events:
+   - `submit` - Occurs when a form is submitted.
+   - `reset` - Occurs when a form is reset.
+   - `change` - Occurs when the value of an element changes (for input elements, select elements, etc.).
+   - `focus` - Occurs when an element receives focus.
+   - `blur` - Occurs when an element loses focus.
+
+4. Window Events:
+   - `load` - Occurs when a resource and its dependent resources have finished loading.
+   - `resize` - Occurs when the browser window is resized.
+   - `scroll` - Occurs when the document view or an element is scrolled.
+
+5. Miscellaneous Events:
+   - `DOMContentLoaded` - Occurs when the HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.
+   - `error` - Occurs when an error occurs during the loading of an external resource (e.g., image or script).
+
+===================================================================
+
+=> map:
+- map is an array method in JavaScript used to iterate over an array and transform each element in the array according to a callback function. It returns a new array with the modified elements without mutating the original array.
+
+=> filter:
+- filter is an array method in JavaScript used to iterate over an array and return a new array containing only the elements that satisfy a condition specified in a callback function. It does not mutate the original array but creates a new array with filtered elements.
+
+=> reduce:
+- reduce is an array method in JavaScript used to iterate over an array and accumulate a single result (such as a sum, product, or concatenation) based on the elements of the array. It takes a callback function that applies a reducer function to each element and accumulates a value, reducing the array to a single value.
+
+=> Summary:
+- map: Transforms each element of an array and returns a new array.
+- filter: Filters elements of an array based on a condition and returns a new array.
+- reduce: Reduces an array to a single value by applying a reducer function to each element.
+
+===================================================================
+
+=> Synchronization:
+- Synchronization in JavaScript refers to managing the flow of execution to ensure that operations occur in a specific order or simultaneously when needed. It typically involves coordinating tasks or threads to work together, often using mechanisms like locks or blocking operations to control access to shared resources and maintain consistency.
+
+=> Asynchronization:
+- Asynchronization (or asynchronous programming) in JavaScript allows tasks to operate independently of the main program flow, enabling non-blocking execution. Asynchronous operations are managed using callbacks, promises, or async/await syntax, allowing tasks such as I/O operations or event handling to proceed independently and asynchronously, improving responsiveness and performance.
+
+===================================================================
