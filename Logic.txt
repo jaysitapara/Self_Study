@@ -1,0 +1,6 @@
+1. Understand
+2. Input
+3. Solution
+4. Code
+
+Find Area = area * area

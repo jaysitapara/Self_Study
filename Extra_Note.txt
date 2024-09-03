@@ -1,0 +1,89 @@
+Flowchart & Pseudocode
+
+Flowchart => Diagram of a Solution
+Pseudocode => General logic of Solution (Logic + Code)
+Pseudocode it means duplicate code 
+
+Start code to write = Start
+End of code to write = end/exit
+
+Start/Exit => Oval Shape
+Input/Output => Pallelogram
+Process => Rectangle Shape
+Arrows => -----> (Connect whole chart)
+Decision / Condition => Diamond Shape
+
+How does code run ?
+    Code run in editors (Digital notebook)
+    c++ code => Translators(compiler) => 0/1 (computer language)(executable)
+
+    State 1 = code pass
+    State 0 = code not pass
+
+output => cout (statement - use to show output) (ex. cout << "jay)
+
+C++ is a case sensitive language
+
+C++ file save extention is .cpp
+
+C++ end point in always write terminator like semi colon (;)
+
+Whole code run into main function (int main())
+
+But before main function write #include <iostream> => #include <iostream> is a preprocessor directive like statement. In iostream write cout logic.
+
+using namespace std => In code there are many cout, cin so use std namespace to find proper cout, cin.
+
+return 0 => not any return
+
+How does code run => code.cpp(source code) => compiler => code.exe(Executable file)
+
+How compile code file => g++ filename.cpp
+    - after compile code create one file called a.exe
+    - after run a.exe (executable file)
+
+compile code => To check error, warning, syntax, etc...
+
+Next line => cout << "Jay" << endl; - slower
+             cout << "Jay" << "\n; - faster
+
+Boiler plate => 
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "jay sitapara" << endl;
+    return 0;
+}
+
+Variables => Container to store data.
+
+In C++ always type variable name with its datatype.
+
+8 bits = 1 byte
+
+sizeof => this function through show size of variable byte/bits
+
+Data Type (Primitive Datatypes) => int => 4 bytes
+             char => 1 byte
+             float => 4 bytes (write F/f after write value)
+             bool => 1 bytes (true / false (true = 1, false = 0))
+             double => 8 bytes
+
+When you add character in variable to first computer convert a to z convert in ascii value (ascii = value in number) - (A = 65, B = 66, C = 67...) (a = 97, b = 98, c = 99...)
+
+Type casting => converting data from one type to another
+
+             => 1. Type conversion - Implicit - Compiler convert datatype (small type of data convert into large type of data means not loss of data) (4 byte convert in 8 byte = 4 < 8)
+
+             => 2. Type casting - Explicit - Convert programmer manually
+
+Input from user => when you take Input from user to use cin function (cin)
+
+cin / cout not a function its a global object.
+
+Operators => 1. Arithmatic Operators ( +, -, *, / )
+             2. Relational Operators ( <, >, <=, >=, ==, != )
+             3. Logical Operators (OR - ||, AND - &&, NOT - !)
+             4. Unary Operators ( Increment - ++, Decrement - --)
